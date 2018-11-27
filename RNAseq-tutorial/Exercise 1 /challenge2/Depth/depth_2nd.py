@@ -114,7 +114,33 @@ result = pd.concat(frames, axis=1)
 
 
 dfRegrex = result.reindex(columns=sorted(result.columns, key=lambda x: int(x[1:]) if x!='p' else 0))
-# result.columns = ["t1 Depth", "t2 Depth", "t3 Depth", "t4 Depth", "t5 Depth", "t6 Depth", "t7 Depth", "t8 Depth", "t9 Depth", "t10 Depth"]
+result.columns = ["t1 Depth", "t2 Depth", "t3 Depth", "t4 Depth", "t5 Depth", "t6 Depth", "t7 Depth", "t8 Depth", "t9 Depth", "t10 Depth"]
+
+print(dfRegrex)
+
+with open("dfRegrex.out", 'w') as file:
+    for item in dfRegrex.T:
+        file.write(str(item) + "\n")
+
+col_names = dfRegrex.columns.values.tolist()
+row_names = dfRegrex.index.values.tolist()
+
+rng = np.random.RandomState(0)
+colors = rng.rand(len(row_names))
+
+for i in range(len(row_names)):
+    xaxis = col_names
+    data = dfRegrex.T.iloc[:,1:]
+    plt.plot(data)
+    plt.ylim(0, 110)
+    plt.xlabel('Experimental Time Point')
+    plt.ylabel('FPKM?')
+    plt.title("Time vs Genes of Interest E.coli mRNA expression")
+    continue
+
+plt.plot(color=colors)
+plt.savefig("PolyEColiLines_GOI.png")
+plt.close()
 
 exp_num = dfRegrex.columns.values.tolist()
 gene_names = dfRegrex.index.tolist()
@@ -290,8 +316,8 @@ for gene in dfRegrex_index:
 #         interesting_genes[gene] = "neutral"
 #         continue
 
-for gene in interesting_genes:
-    print("Gene: " + gene + "\tExpression: " + interesting_genes[gene] )
+# for gene in interesting_genes:
+#     print("Gene: " + gene + "\tExpression: " + interesting_genes[gene] )
 
 # print(interesting_genes, interesting_genes[gene])
 
