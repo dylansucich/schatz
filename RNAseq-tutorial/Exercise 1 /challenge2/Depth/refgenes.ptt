@@ -1,0 +1,100 @@
+190..255	+	21	16127995	thrL	b0001	-	-	thr operon leader peptide
+43188..44129	+	313	16128036	fixB	b0042	C	COG2025	putative electron transfer flavoprotein subunit alpha
+91413..93179	+	588	16128077	ftsI	b0084	M	COG0768	division-specific transpeptidase, penicillin-binding protein 3
+142008..142670	-	220	16128119	yadF	b0126	P	COG0288	putative carbonic anhdrase
+188712..189506	-	264	16128161	map	b0168	J	COG0024	methionine aminopeptidase
+236067..236798	+	243	16128202	dnaQ	b0215	L	COG0847	DNA polymerase III subunit epsilon
+273325..274341	-	338	16128244	trs5_1	b0259	L	COG3039	CP4-6 prophage; IS5 protein 1
+316950..317552	-	200	16128286	ykgB	b0301	S	COG3059	hypothetical protein
+366811..367758	-	315	16128331	mhpR	b0346	K	COG1414	transcriptional activator for 3-hydroxyphenylpropionate degradation (IclR family)
+405629..406153	+	174	16128373	aroL	b0388	E	COG0703	shikimate kinase II
+447874..449865	-	663	16128416	cyoB	b0431	C	COG0843	cytochrome o ubiquinol oxidase subunit I
+496399..497043	+	214	16128458	adk	b0474	F	COG0563	adenylate kinase
+543281..544516	-	411	16128500	allC	b0516	E	COG0624	N-carbamoyl-L-amino acid amidohydrolase
+579103..579309	+	68	16128542	ybcW	b0559	-	-	DLP12 prophage
+632809..633969	+	386	16128583	ybdL	b0600	E	COG0436	putative aminotransferase
+671424..674006	-	860	16128625	leuS	b0642	J	COG0495	leucyl-tRNA synthetase
+720953..723637	-	894	16128671	kdpD	b0695	T	COG2205	sensor for high-affinity potassium transport system
+774376..775068	+	230	16128712	tolQ	b0737	U	COG0811	inner membrane protein required for outer membrane integrity, uptake of group A colicins and phage DNA
+819107..819811	+	234	16128754	ybhL	b0786	R	COG0670	putative transport protein
+865791..866756	+	321	16128796	ybiK	b0828	E	COG1446	L-asparaginase
+907516..908517	-	333	16128838	ltaE	b0870	E	COG2008	L-allo-threonine aldolase, PLP-dependent
+963465..965807	+	780	49176059	ycaI	b0913	-	-	putative recombination protein, metallo-hydrolase domain
+1015762..1017522	-	586	16128922	ycbZ	b0955	O	COG1067	putative ATP-dependent protease
+1061022..1061621	+	199	16128964	torD	b0998	R	COG3381	chaperone protein TorD
+1105043..1105576	+	177	16129008	ymdB	b1045	R	COG2110	hypothetical protein
+1145234..1145857	-	207	16129050	maf	b1087	D	COG0424	Maf-like protein
+1187539..1188999	-	486	16129092	phoQ	b1129	T	COG0642	sensor protein PhoQ
+1222918..1223130	+	70	16129136	ycgI	b1173	-	-	unknown CDS
+1267388..1268242	+	284	16129178	kdsA	b1215	M	COG2877	2-dehydro-3-deoxyphosphooctonate aldolase
+1312044..1312682	+	212	16129217	yciD	b1256	M	COG3047	outer membrane protein W; colicin S4 receptor; putative transport protein
+1359132..1359908	+	258	49176096	ycjL	b1298	-	-	probable amidotransferase subunit
+1404003..1404566	+	187	16129301	ydaL	b1340	S	COG2840	hypothetical protein
+1443711..1443896	+	61	16129343	ynbE	b1382	-	-	unknown CDS
+1499586..1500179	+	197	16129389	tehB	b1430	Q	COG0500	putative methyltransferase; tellurite resistance
+1543762..1544052	-	96	16129431	yddL	b1472	M	COG3203	putative outer membrane porin protein
+1601043..1602071	+	342	16129473	ydeY	b1514	G	COG1172	putative ABC transport system permease protein
+1638394..1638684	-	96	49176122	essQ	b1556	-	-	Qin prophage
+1670844..1671173	-	109	16129557	ydgE	b1599	P	COG2076	multidrug transport protein (SMR superfamily)
+1716517..1717626	-	369	16129598	ydhH	b1640	O	COG2377	hypothetical protein
+1762042..1762410	-	122	16129640	sufA	b1684	S	COG0316	iron-sulfur cluster assembly scaffold protein
+1808223..1808825	+	200	49176139	ydjM	b1728	-	-	LexA regulated gene, possible SOS response
+1852120..1852878	-	252	16129724	ydjF	b1770	K	COG1349	putative DEOR-type transcriptional regulator
+1892829..1894190	+	453	16129766	pabB	b1812	E	COG0147	para-aminobenzoate synthase component I
+1935673..1937115	+	480	16129807	pykA	b1854	G	COG0469	pyruvate kinase
+1978212..1979636	-	474	16129848	otsA	b1896	G	COG0380	trehalose-6-phosphate synthase
+2017642..2018106	+	154	16129891	fliL	b1944	N	COG1580	flagellar biosynthesis protein
+2067839..2068249	-	136	49176176	yi21_3	b1997	-	-	insertion sequence 2 OrfA protein
+2108162..2109043	-	293	16129979	rfbA	b2039	M	COG1209	dTDP-glucose pyrophosphorylase
+2163692..2165053	+	453	16130021	yegQ	b2081	O	COG0826	putative protease
+2215422..2216579	-	385	16130068	yehY	b2130	E	COG1174	putative glycine/betaine/choline transport protein, osmoprotection (ABC superfamily, membrane)
+2264267..2265733	+	488	16130110	yeiQ	b2172	G	COG0246	putative mannitol dehydrogenase
+2309668..2310771	-	367	16130152	ompC	b2215	M	COG3203	outer membrane pore protein 1b (Ib;c)
+2371294..2371590	-	98	16130194	pmrD	b2259	-	-	polymyxin resistance protein B
+2417863..2418507	-	214	16130236	yfcF	b2301	O	COG0625	putative glutathione S-transferase
+2458672..2458980	-	102	16130276	yfcZ	b2343	S	COG3691	hypothetical protein
+2504669..2505916	-	415	16130318	ypdG	b2386	G	COG1299	putative PTS family enzyme IIC component, fructose-specific
+2550374..2551243	+	289	16130360	amiA	b2435	M	COG0860	N-acetylmuramoyl-l-alanine amidase I
+2595853..2596890	-	345	49176226	nlpB	b2477	-	-	lipoprotein-34
+2643035..2645347	-	770	16130444	pbpC	b2519	M	COG4953	penicillin binding protein 1C (PBP 1C)
+2696709..2697629	+	306	16130486	yfhH	b2561	K	COG1737	putative transport protein (ABC superfamily, membrane)
+2742594..2743361	-	255	16130528	trmD	b2607	J	COG0336	tRNA (guanine-N(1)-)-methyltransferase
+2821871..2822368	-	165	16130607	ygaD	b2700	R	COG1546	competence damage-inducible protein A
+2865636..2866775	-	379	16130649	nlpD	b2742	M	COG0739	lipoprotein
+2911721..2913022	-	433	16130692	rumA	b2785	J	COG2265	23S rRNA (uracil-5-)-methyltransferase
+2966469..2966999	-	176	16130734	ygdP	b2830	L	COG0494	dinucleoside polyphosphate hydrolase
+3008038..3009435	+	465	49176277	ygeZ	b2873	-	-	dihydropyrimidinase
+3058872..3061016	+	714	16130818	sbm	b2917	I	COG2185	methylmalonyl-CoA mutase
+3100155..3100874	-	239	16130861	yggH	b2960	R	COG0220	tRNA (guanine-N(7)-)-methyltransferase
+3147684..3148568	+	294	16130901	yghA	b3003	Q	COG1028	oxidoreductase
+3185422..3187887	+	821	49176305	yqiG	b3046	-	-	putative outer membrane usher protein
+3237966..3239210	+	414	16130984	ygjU	b3089	E	COG3633	Na+:serine/threonine symporter (DAACS family)
+3279144..3279647	+	167	49176319	agaA	b3135	-	-	putative N-acetylgalactosamine-6-phosphate deacetylase
+3325057..3325686	-	209	16131069	rrmJ	b3179	J	COG0293	23 S rRNA methyltransferase
+3367036..3367500	-	154	16131111	yhcH	b3221	G	COG2731	hypothetical protein
+3410825..3411487	-	220	16131152	envR	b3264	K	COG1309	putative transcriptional regulator
+3447204..3447905	-	233	16131193	rpsC	b3314	J	COG0092	30S ribosomal protein S3
+3483436..3483840	-	134	16131235	yhfA	b3356	O	COG1765	hypothetical protein
+3526646..3527359	+	237	49176347	yrfG	b3399	-	-	putative hydrolase, contains a phophatase-like domain
+3581061..3581477	+	138	16131315	yrhA	b3443	-	-	hypothetical protein
+3623702..3624829	-	375	49176362	yhhJ	b3485	-	-	putative transporter
+3678467..3679963	-	498	16131399	yhjJ	b3527	R	COG0612	putative peptidase
+3731743..3732924	+	393	16131439	xylH	b3568	G	COG4214	D-xylose transport permease (ABC superfamily, membrane)
+3782214..3782465	-	83	16131481	grxC	b3610	O	COG0695	glutaredoxin 3
+3823233..3825314	+	693	16131523	recG	b3652	L	COG1200	DNA helicase, ATP-dependent resolution of Holliday junctions, branch migration
+3872494..3873183	-	229	49176392	dgoR	b4479	-	-	transcriptional repressor for galactonate utilization (GntR family)
+3918973..3919212	-	79	16131605	atpE	b3737	C	COG0636	ATP synthase subunit C
+3970545..3971612	+	355	49176411	rffG	b3788	-	-	dTDP-glucose 4,6-dehydratase
+4017647..4018252	+	201	16131683	yigP	b3834	S	COG3165	hypothetical protein
+4072668..4073477	+	269	16131724	yihW	b3884	K	COG1349	putative DEOR-type transcriptional regulator
+4115268..4116113	-	281	16131765	glpF	b3927	G	COG0580	MIP channel, glycerol diffusion
+4172099..4173049	-	316	16131808	coaA	b3974	H	COG1072	pantothenate kinase
+4229382..4229654	-	90	16131849	yjbD	b4023	-	-	hypothetical protein
+4278003..4279652	+	549	16131891	yjcE	b4065	P	COG0025	putative sodium:hydrogen antiporter (CPA1 family)
+4323321..4323764	-	147	16131933	phnB	b4107	S	COG2764	hypothetical protein
+4374748..4375215	+	155	49176464	sugE	b4148	-	-	quarternary ammonium compound transport protein (SMR family)
+4417946..4419400	+	484	49176471	ulaA	b4193	-	-	ascorbate-specific PTS system enzyme IIC
+4457576..4457878	+	100	49176476	cybC	b4236	-	-	cytochrome b(562)
+4502021..4503298	+	425	49176483	yjhB	b4279	-	-	putative sialic acid transporter
+4547976..4549319	-	447	16132142	gntP	b4321	G	COG2610	gluconate transport protein, GNT III system (GntP family)
+4600111..4600944	-	277	49176498	yjjP	b4364	-	-	putative structural protein

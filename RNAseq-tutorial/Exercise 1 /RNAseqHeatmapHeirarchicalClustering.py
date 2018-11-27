@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# RNAseqHeatmapHeirarchicalClustering.py expression.txt name
+
+
 
 import sys
 import numpy as np
@@ -16,32 +19,32 @@ gene_names = df.index.tolist()
 
 matrix = df.values
 
-
 # gene_names = matrix[:, 0]
-# print(gene_names)
-# print(cell_types)
+print(gene_names)
+print(cell_types)
 # Transpose axis of matrix
 
 Z = linkage(matrix, "ward")
 ZT = linkage(matrix.T, "ward")
 
-fig, ax = plt.subplots()
-plt.title("Dendrogram of " + sys.argv[2] )
-plt.xlabel("sample")
-plt.ylabel("distance")
-dendrogram(
-    ZT,
-    show_leaf_counts=False,
-    leaf_rotation=90.,
-    leaf_font_size=12.,
-    show_contracted=True)
-
-fig.savefig("ClusteredDendrogram_" + sys.argv[2] + ".png")
-plt.close(fig)
+# fig, ax = plt.subplots()
+# plt.title("Dendrogram of " + sys.argv[2] )
+# plt.xlabel("sample")
+# plt.ylabel("distance")
+# dendrogram(
+#     ZT,
+#     show_leaf_counts=False,
+#     leaf_rotation=90.,
+#     leaf_font_size=12.,
+#     show_contracted=True)
+#
+# fig.savefig("ClusteredDendrogram_" + sys.argv[2] + ".png")
+# plt.close(fig)
 
 idx_rows = leaves_list(Z)
 data = matrix[idx_rows, :]
 idx_columns = leaves_list(ZT)
+# idx_columns = range(10)
 data = data[:, idx_columns]
 
 X = (data-np.average(data,axis=0))/np.std(data,axis=0)
@@ -65,12 +68,15 @@ ax.set_xticklabels(                 # Label the ticks
 	idx_columns,                         # ... at position which correspond to the indices of our labels
 	rotation=50,                    # ... and rotate the labels 50 degrees counter-clockwise
 	)
+
+
 # ax.set_yticks(idx_rows, rotation=50)                   # Edit the ticks on the y-axis to show....NOTHING
 
-# ax.set_yticklabels(                 # Label the ticks
-#     idx_rows,                         # ... at position which correspond to the indices of our labels
-#     rotation=50,                    # ... and rotate the labels 50 degrees counter-clockwise
-#     )
+ax.set_yticklabels(                 # Label the ticks
+    idx_rows,                         # ... at position which correspond to the indices of our labels
+    rotation=50,                    # ... and rotate the labels 50 degrees counter-clockwise
+    )
+
 
 cbar = fig.colorbar(im, ax=ax)      # Add a bar to the right side of the plot which shows the scale correlating the colors to the pixel values
 

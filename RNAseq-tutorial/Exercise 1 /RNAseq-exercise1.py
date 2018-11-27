@@ -15,22 +15,64 @@ import sys
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from sklearn.decomposition import PCA
 
-genes = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,
-34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,
-69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100]
+df = pd.read_table(sys.argv[1], index_col=0)
 
-df = pd.read_csv(sys.argv[1], sep = "\t", index_col=0)
+col_names = df.columns.values.tolist()
+row_names = df.index.values.tolist()
 
-for i in genes:
-    genelist = df.loc["gene_" + str(i)][:]
-    xaxis = ["exp_1",  "exp_2",  "exp_3",  "exp_4",  "exp_5",  "exp_6",  "exp_7",  "exp_8",  "exp_9",  "exp_10"]
-    yaxis = genelist
-    plt.figure()
-    plt.plot(xaxis, yaxis)
-    plt.title("gene_" + str(i) +".png")
+pca = PCA( n_components =2)
+fit = pca.fit( df )
+x = fit.transform( df )
+# print( fit.explained_variance_ratio_ )
+print( fit.components_ )
+print( fit.components_.shape )
+print( x )
+print( x.shape )
+
+fig, ax = plt.subplots(figsize=(6,6))
+
+rng = np.random.RandomState(0)
+colors = rng.rand(len(row_names))
+ax.scatter( x[:, 0], x[:, 1], c=colors , cmap="RdYlGn" )
+ax.set_title( "PCA of FPKM" )
+ax.set_xlabel( "PCA1")
+plt.xlim(-100,110)
+ax.set_ylabel( "PCA2" )
+ax.axhline(y=0, color='r', dashes=(1.0,1.0))
+
+# some = int(len( row_names ))
+
+
+# for i in range( some ):
+#
+#      ax.annotate( row_names[i], ( x[i,0], x[i,1] ))
+
+plt.tight_layout()
+fig.savefig( "pca_ecoliTimeExperiments.png" )
+plt.close()
+
+
+
+for i in range(len(row_names)):
+    xaxis = col_names
+    data = df.T.iloc[:,i]
+    plt.plot(data)
     plt.ylim(0, 110)
-    plt.savefig("gene_" + str(i) + ".png")
-    plt.close()
+    plt.xlabel('Experimental Time Point')
+    plt.ylabel('FPKM?')
+    plt.title("Time vs E.coli mRNA expression")
     continue
+
+plt.plot(color=colors)
+plt.savefig("PolyEColiLines.png")
+plt.close()
+    
+#PCA
+# poly lines 
+
+
+
+
 
