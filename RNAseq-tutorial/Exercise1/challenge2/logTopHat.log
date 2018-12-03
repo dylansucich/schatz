@@ -1,0 +1,500 @@
+   43  GOEA.py GeneOntology/increasedNP.out gene_association.mgi
+   44  GOEA.py GeneOntology/increasedNP.out gene_association.mgi
+   45  GOEA.py GeneOntology/increasedNP.out gene_association.mgi
+   46  GOEA.py GeneOntology/increasedNP.out gene_association.mgi
+   47  GOEA.py GeneOntology/increasedNP.out gene_association.mgi
+   48  GOEA.py GeneOntology/increasedNP.out gene_association.mgi
+   49  GOEA.py GeneOntology/increasedNP.out gene_association.mgi
+   50  GOEA.py GeneOntology/increasedNP.out gene_association.mgi
+   51  GOEA.py GeneOntology/increasedNP.out gene_association.mgi
+   52  GOEA.py GeneOntology/increasedNP.out gene_association.mgi
+   53  GOEA.py GeneOntology/increasedNP.out gene_association.mgi
+   54  GOEA.py GeneOntology/increasedNP.out gene_association.mgi
+   55  GOEA.py GeneOntology/increasedNP.out gene_association.mgi
+   56  GOEA.py GeneOntology/increasedNP.out gene_association.mgi
+   57  GOEA.py GeneOntology/increasedNP.out gene_association.mgi
+   58  GOEA.py GeneOntology/increasedNP.out gene_association.mgi
+   59  GOEA.py GeneOntology/increasedNP.out gene_association.mgi
+   60  GOEA.py GeneOntology/increasedNP.out gene_association.mgi
+   61  GOEA.py GeneOntology/increasedNP.out gene_association.mgi
+   62  GOEA.py GeneOntology/increasedNP.out gene_association.mgi
+   63  GOEA.py GeneOntology/increasedNP.out gene_association.mgi
+   64  GOEA.py GeneOntology/increasedNP.out gene_association.mgi
+   65  GOEA.py GeneOntology/increasedNP.out gene_association.mgi
+   66  GOEA.py GeneOntology/increasedNP.out gene_association.mgi
+   67  GOEA.py GeneOntology/increasedNP.out gene_association.mgi
+   68  GOEA.py GeneOntology/increasedNP.out gene_association.mgi
+   69  depth_2nd.py depth.out > GOI_expressionchanges.out
+   70  depth_2nd.py depth.out
+   71  depth_2nd.py GSE113979_Normalized_Counts.txt
+   72  depth_2nd.py GSE113979_Normalized_Counts.txt > GSE113979_GOI_expressionchanges.out
+   73  depth_2nd.py GSE113979_Normalized_Counts.txt 
+   74  depth_2nd.py GSE113979_Normalized_Counts.txt 
+   75  depth_2nd.py GSE113979_Normalized_Counts.txt 
+   76  depth_2nd.py GSE113979_Normalized_Counts.txt 
+   77  depth_2nd.py GSE113979_Normalized_Counts.txt 
+   78  depth_2nd.py GSE113979_Normalized_Counts.txt 
+   79  depth_2nd.py GSE113979_Normalized_Counts.txt 
+   80  depth_2nd.py GSE113979_Normalized_Counts.txt 
+   81  depth_2nd.py GSE113979_Normalized_Counts.txt 
+   82  depth_2nd.py GSE113979_Normalized_Counts.txt 
+   83  depth_2nd.py GSE113979_Normalized_Counts.txt 
+   84  depth_2nd.py GSE113979_Normalized_Counts.txt 
+   85  depth_2nd.py GSE113979_Normalized_Counts.txt 
+   86  depth_2nd.py GSE113979_Normalized_Counts.txt 
+   87  depth_2nd.py GSE113979_Normalized_Counts.txt 
+   88  depth_2nd.py GSE113979_Normalized_Counts.txt 
+   89  depth_2nd.py GSE113979_Normalized_Counts.txt 
+   90  depth_2nd.py GSE113979_Normalized_Counts.txt 
+   91  depth_2nd.py GSE113979_Normalized_Counts.txt 
+   92  depth_2nd.py GSE113979_Normalized_Counts.txt 
+   93  depth_2nd.py GSE113979_Normalized_Counts.txt 
+   94  depth_2nd.py GSE113979_Normalized_Counts.txt 
+   95  depth_2nd.py GSE113979_Normalized_Counts.txt 
+   96  depth_2nd.py GSE113979_Normalized_Counts.txt 
+   97  depth_2nd.py GSE113979_Normalized_Counts.txt 
+   98  depth_2nd.py GSE113979_Normalized_Counts.txt 
+   99  depth_2nd.py GSE113979_Normalized_Counts.txt 
+  100  depth_2nd.py GSE113979_Normalized_Counts.txt 
+  101  depth_2nd.py GSE113979_Normalized_Counts.txt 
+  102  depth_2nd.py GSE113979_Normalized_Counts.txt 
+  103  depth_2nd.py GSE113979_Normalized_Counts.txt 
+  104  depth_2nd.py GSE113979_Normalized_Counts.txt 
+  105  depth_2nd.py GSE113979_Normalized_Counts.txt 
+  106  depth_2nd.py GSE113979_Normalized_Counts.txt 
+  107  depth_2nd.py GSE113979_Normalized_Counts.txt 
+  108  depth_2nd.py GSE113979_Normalized_Counts.txt 
+  109  depth_2nd.py GSE113979_Normalized_Counts.txt 
+  110  depth_2nd.py GSE113979_Normalized_Counts.txt 
+  111  depth_2nd.py GSE113979_Normalized_Counts.txt 
+  112  depth_2nd.py GSE113979_Normalized_Counts.txt 
+  113  depth_2nd.py GSE113979_Normalized_Counts.txt 
+  114  depth_2nd.py GSE113979_Normalized_Counts.txt 
+  115  depth_2nd.py GSE113979_Normalized_Counts.txt 
+  116  depth_2nd.py GSE113979_Normalized_Counts.txt 
+  117  depth_2nd.py GSE113979_Normalized_Counts.txt 
+  118  depth_2nd.py GSE113979_Normalized_Counts.txt 
+  119  depth_2nd.py GSE113979_Normalized_Counts.txt 
+  120  depth_2nd.py GSE113979_Normalized_Counts.txt 
+  121  depth_2nd.py GSE113979_Normalized_Counts.txt 
+  122  depth_2nd.py GSE113979_Normalized_Counts.txt 
+  123  depth_2nd.py GSE113979_Normalized_Counts.txt 
+  124  cd Desktop/DGS/Hugo and Mario/Mario Penzo/Logged/Ahrens_2018_RNAseq/data
+  125  ls
+  126  cd /Users/cmdb/Desktop/DGS/Hugo\ and\ Mario/Mario\ Penzo/Logged/Ahrens_2018_RNAseq/data 
+  127  GOEA.py GENEOntology/Meanslog2_inc.out 
+  128  GOEA.py GENEOntology/Meanslog2_inc.out 
+  129  GOEA.py GENEOntology/Meanslog2_inc.out 
+  130  GOEA.py GENEOntology/Meanslog2_inc.out /Users/cmdb/Desktop/DGS/Hugo\ and\ Mario/Mario\ Penzo/Logged/Ahrens_2018_RNAseq/data/gene_association.mgi 
+  131  GOEA.py GENEOntology/Meanslog2_inc.out /Users/cmdb/Desktop/DGS/Hugo\ and\ Mario/Mario\ Penzo/Logged/Ahrens_2018_RNAseq/data/gene_association.mgi 
+  132  GOEA.py GENEOntology/Meanslog2_inc.out /Users/cmdb/Desktop/DGS/Hugo\ and\ Mario/Mario\ Penzo/Logged/Ahrens_2018_RNAseq/data/gene_association.mgi 
+  133  cd /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /challenge2 
+  134  ls
+  135  less -S t4_STARLog.final.out 
+  136  less -S t4_STARSJ.out.tab 
+  137  less -S t1_STARAligned.out.sam  
+  138  ls
+  139  cd /Users/cmdb/Desktop/DGS/Hugo\ and\ Mario/Mario\ Penzo/Logged/Ahrens_2018_RNAseq/data 
+  140  ls
+  141  less -S gene2go
+  142  python scripts/find_enrichment.py --pval=0.05 --indent data/study data/population data/association
+  143  find_enrichment.py --pval=0.05 --indent  /Users/cmdb/Desktop/DGS/Hugo\ and\ Mario/Mario\ Penzo/Logged/Ahrens_2018_RNAseq/data/GeneOntology/Means_inc.out /Users/cmdb/Desktop/DGS/Hugo\ and\ Mario/Mario\ Penzo/Logged/Ahrens_2018_RNAseq/data/GeneOntology/population.out /Users/cmdb/Desktop/DGS/Hugo\ and\ Mario/Mario\ Penzo/Logged/Ahrens_2018_RNAseq/data/gene_association.mgi 
+  144  cd /Users/cmdb/qbb2018-answers/class3 
+  145  less -S /Users/cmdb/qbb2018-answers/class3/ann_calls1.vcf 
+  146  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  147  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  148  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  149  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  150  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  151  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  152  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  153  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  154  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  155  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  156  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  157  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  158  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  159  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  160  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  161  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  162  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  163  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  164  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  165  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  166  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  167  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  168  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  169  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  170  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  171  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  172  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  173  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  174  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  175  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  176  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  177  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  178  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  179  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  180  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  181  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  182  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  183  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  184  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  185  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  186  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  187  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  188  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  189  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  190  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  191  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  192  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  193  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  194  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  195  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  196  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  197  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  198  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  199  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  200  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  201  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  202  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  203  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  204  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  205  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  206  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  207  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  208  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  209  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  210  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  211  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  212  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  213  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  214  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf 
+  215  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  216  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  217  less -S snpEff_genes.txt 
+  218  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  219  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  220  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  221  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  222  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  223  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  224  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  225  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  226  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  227  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  228  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  229  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  230  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  231  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  232  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  233  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  234  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  235  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  236  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  237  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  238  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  239  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  240  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  241  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  242  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  243  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  244  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  245  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  246  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  247  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  248  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  249  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  250  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  251  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  252  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  253  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  254  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  255  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  256  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  257  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  258  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  259  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  260  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  261  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  262  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  263  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  264  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  265  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  266  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  267  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  268  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  269  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  270  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  271  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  272  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  273  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  274  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  275  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  276  [A
+  277  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  278  git add class3-hw.py depth_hist.png quality_hist.png allele_frequency_hist.png impact_effects_bar.png 
+  279  git commit -m "Class 3 Variant Calling Plots"
+  280  cd ../class4
+  281  ls
+  282  class4-hw3.py BYxRM_PhenoData.txt plink_treatment_qassoc/*.qassoc
+  283  class4-hw3.py BYxRM_PhenoData.txt plink_treatment_qassoc/*.qassoc
+  284  class4-hw3.py BYxRM_PhenoData.txt plink_treatment_qassoc/*.qassoc
+  285  class4-hw3.py BYxRM_PhenoData.txt plink_treatment_qassoc/*.qassoc
+  286  class4-hw3.py BYxRM_PhenoData.txt plink_treatment_qassoc/*.qassoc
+  287  class4-hw3.py BYxRM_PhenoData.txt plink_treatment_qassoc/*.qassoc
+  288  class4-hw3.py BYxRM_PhenoData.txt plink_treatment_qassoc/*.qassoc
+  289  class4-hw3.py BYxRM_PhenoData.txt plink_treatment_qassoc/*.qassoc
+  290  class4-hw3.py BYxRM_PhenoData.txt plink_treatment_qassoc/*.qassoc
+  291  class4-hw3.py BYxRM_PhenoData.txt plink_treatment_qassoc/*.qassoc
+  292  class4-hw3.py BYxRM_PhenoData.txt plink_treatment_qassoc/*.qassoc
+  293  class4-hw3.py BYxRM_PhenoData.txt plink_treatment_qassoc/*.qassoc
+  294  class4-hw3.py BYxRM_PhenoData.txt plink_treatment_qassoc/*.qassoc
+  295  class4-hw3.py BYxRM_PhenoData.txt plink_treatment_qassoc/*.qassoc
+  296  class4-hw3.py BYxRM_PhenoData.txt plink_treatment_qassoc/*.qassoc
+  297  class4-hw3.py BYxRM_PhenoData.txt plink_treatment_qassoc/*.qassoc
+  298  class4-hw3.py BYxRM_PhenoData.txt plink_treatment_qassoc/*.qassoc
+  299  class4-hw3.py BYxRM_PhenoData.txt plink_treatment_qassoc/*.qassoc
+  300  class4-hw3.py BYxRM_PhenoData.txt plink_treatment_qassoc/*.qassoc
+  301  class4-hw3.py BYxRM_PhenoData.txt plink_treatment_qassoc/*.qassoc
+  302  class4-hw3.py BYxRM_PhenoData.txt plink_treatment_qassoc/*.qassoc
+  303  class4-hw3.py BYxRM_PhenoData.txt plink_treatment_qassoc/*.qassoc
+  304  class4-hw3.py BYxRM_PhenoData.txt plink_treatment_qassoc/*.qassoc
+  305  class4-hw3.py BYxRM_PhenoData.txt plink_treatment_qassoc/*.qassoc
+  306  class4-hw3.py BYxRM_PhenoData.txt plink_treatment_qassoc/*.qassoc
+  307  class4-hw3.py BYxRM_PhenoData.txt plink_treatment_qassoc/*.qassoc
+  308  ls -alh
+  309  git add /Users/cmdb/qbb2018-answers/class4/Allele_Freq.png /Users/cmdb/qbb2018-answers/class4/Allele_Freq.png /Users/cmdb/qbb2018-answers/class4/Cadmium_Chloride_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Caffeine_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Calcium_Chloride_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Cisplatin_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Cobalt_Chloride_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Congo_red_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Copper_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Cycloheximide_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Diamide_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/E6_Berbamine_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Ethanol_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Formamide_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Galactose_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Hydrogen_Peroxide_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Hydroquinone_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Hydroxyurea_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Indoleacetic_Acid_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Lactate_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Lactose_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Lithium_Chloride_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Magnesium_Chloride_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Magnesium_Sulfate_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Maltose_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Mannose_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Menadione_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Neomycin_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Paraquat_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/PCA2vsPCA1.png /Users/cmdb/qbb2018-answers/class4/Raffinose_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/SDS_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Sorbitol_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Trehalose_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Tunicamycin_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/x4-Hydroxybenzaldehyde_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/x4NQO_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/x5-Fluorocytosine_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/x5-Fluorouracil_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/x6-Azauracil_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Xylose_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/YNB_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/YNB\:ph3_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/YNB\:ph8_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/YPD_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/YPD\:4C_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/YPD\:15C_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/YPD\:37C_manhattanplot_.png /Users/cmdb/qbb2018-answers/class4/Zeocin_manhattanplot_.png 
+  310  git add /Users/cmdb/qbb2018-answers/class4/class4-hw.py /Users/cmdb/qbb2018-answers/class4/class4-hw1.py /Users/cmdb/qbb2018-answers/class4/class4-hw2.py /Users/cmdb/qbb2018-answers/class4/class4-hw3.py 
+  311  git commit -m "Class 4: GWAS"
+  312  git push
+  313  cd ../class2
+  314  git push
+  315  cd ../class6
+  316  ls -alh
+  317  mate class6-homework.py 
+  318  ls
+  319  less -S class6-history.log 
+  320  less - S peaksGained 
+  321  less -S peaksGained 
+  322  less -S Mus_musculus.GRCm38.94_features.bed 
+  323  mate class6-homework.py 
+  324  class6-homework.py peaksGained peaksLost 
+  325  class6-homework.py peaksGained peaksLost 
+  326  class6-homework.py peaksGained peaksLost 
+  327  class6-homework.py peaksGained peaksLost 
+  328  class6-homework.py peaksGained peaksLost 
+  329  class6-homework.py peaksGained peaksLost 
+  330  class6-homework.py peaksGained peaksLost 
+  331  class6-homework.py peaksGained peaksLost 
+  332  class6-homework.py peaksGained peaksLost 
+  333  cd 
+  334  cd schatz
+  335  cd /Users/cmdb/Desktop/DGS/Hugo\ and\ Mario/Mario\ Penzo/Logged/Ahrens_2018_RNAseq/data 
+  336  ls
+  337  class3-hw.py /Users/cmdb/qbb2018-answers/class3/calls.vcf /Users/cmdb/qbb2018-answers/class3/snpEff_genes.txt 
+  338  depth_2nd.py GSE113979_Normalized_Counts.txt
+  339  less -S GeneOntology/increasedNP.out 
+  340  ls -alh GeneOntology/
+  341  less -S Means_inc.out 
+  342  less -S Means_dec.out 
+  343  less -S Means_dec.out 
+  344  less -S Means_dec.out 
+  345  tail 100 Means_dec.out 
+  346  tail -100 Means_dec.out 
+  347  tail -100 Means_inc.out 
+  348  tail -150 Means_inc.out 
+  349  tail -150 Means_dec.out 
+  350  less -S Means_dec.out 
+  351  less -S Means_inc.out 
+  352  less -S Means_inc.out 
+  353  depth_2nd.py GSE113979_Normalized_Counts.txt > GSE113979_GOI_expressionchanges.out
+  354  depth_2nd.py GSE113979_Normalized_Counts.txt
+  355  for i in range(len(row_names)):
+  356      xaxis = col_names
+  357      data = df.T.iloc[:,i]
+  358      plt.plot(data)
+  359      plt.ylim(0, 110)
+  360      plt.xlabel('Experimental Time Point')
+  361      plt.ylabel('FPKM?')
+  362      plt.title("Time vs E.coli mRNA expression")
+  363      continue
+  364  plt.plot(color=colors)
+  365  plt.savefig("PolyEColiLines.png")
+  366  plt.close()
+  367  /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /challenge2/Depth/depth_2nd.py depth.out
+  368  /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /challenge2/Depth/depth_2nd.py depth.out
+  369  /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /challenge2/Depth/depth_2nd.py depth.out
+  370  /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /RNAseq-exercise1.py /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /depth.out 
+  371  /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /RNAseq-exercise1.py /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /depth.out 
+  372  /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /RNAseq-exercise1.py /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /depth.out 
+  373  less -S /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /expression.txt 
+  374  less -S /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /expression.txt 
+  375  /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /RNAseq-exercise1.py /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /depth.out 
+  376  /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /RNAseq-exercise1.py /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /depth.out 
+  377  /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /RNAseq-exercise1.py /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /depth.out 
+  378  /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /RNAseq-exercise1.py /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /depth.out 
+  379  /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /RNAseq-exercise1.py /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /depth.out 
+  380  /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /RNAseq-exercise1.py /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /depth.out 
+  381  cd 
+  382  nano .bash_profile
+  383  cd schatz
+  384  ls
+  385  cd RNAseq-tutorial/
+  386  ls
+  387  cd Exercise\ 1\ /
+  388  ls
+  389  cd challenge2/
+  390  ls
+  391  DepthperExon.py refgenes.ptt t1_depth.bam
+  392  DepthperExon.py refgenes.ptt t1_depth.bam
+  393  /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /challenge2/DepthperExon.py 
+  394  cd
+  395  cd /Users/cmdb/Desktop/DGS/Hugo\ and\ Mario/Mario\ Penzo/Logged/Ahrens_2018_RNAseq/data 
+  396  ls
+  397  cd GeneOntology/
+  398  ls
+  399  less -S Meanslog2_inc.out 
+  400  less -S Means_inc.out 
+  401  cd /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\  
+  402  cd ..
+  403  ls
+  404  cd ..
+  405  ls
+  406  cd RNAseq-tutorial/
+  407  ls
+  408  cd Exercise\ 1\ /
+  409  ls
+  410  git add RNAseq-exercise1.py  RNAseqHeatmapHeirarchicalClustering.py expression.txt 
+  411  cd challenge2/
+  412  ls
+  413  git add DepthperExon.py t*
+  414  cd GenomeDir/
+  415  ls
+  416  cd ..
+  417  git add GenomeDir/
+  418  cd Depth
+  419  ls
+  420  git add Depth.py depth_2nd.py depth.out refgenes.ptt t*
+  421  git commit -m "RNA seq Analysis Pipeline scripts"
+  422  git push
+  423  git push
+  424  cd ..
+  425  ls
+  426  cd Depth
+  427  ls
+  428  depth_2nd.py depth.out
+  429  depth_2nd.py depth.out
+  430  depth_2nd.py depth.out
+  431  depth_2nd.py depth.out
+  432  depth_2nd.py depth.out
+  433  depth_2nd.py depth.out
+  434  git add depth_2nd.py PlyEColiLines_GOI.png
+  435  git add depth_2nd.py PolyEColiLines_GOI.png
+  436  git commit -m "Exercise 2: Parallel Lines for 100 Genes of Interest"
+  437  git push
+  438  nano .bash_profile
+  439  cd 
+  440  nano .bash_profile
+  441  nano .bashrc
+  442  nano .bash_profile
+  443  ls
+  444  cd /
+  445  ls
+  446  cd bin
+  447  ls
+  448  cd ..
+  449  ls
+  450  cd usr
+  451  ls
+  452  cd bin
+  453  ls
+  454  cd ..
+  455  cd local
+  456  ls
+  457  cd bin
+  458  ls
+  459  open Finder -a /usr/local/bin
+  460  cd 
+  461  ls
+  462  echo $PATH
+  463  cd /Users/cmdb/miniconda3/bin
+  464  ls
+  465  echo $PATH
+  466  hello.sh
+  467  cd Depth
+  468  cd 
+  469  cd schatz
+  470  ls
+  471  cd RNAseq-tutorial/
+  472  cd Exercise\ 1\ /
+  473  cd challenge2/
+  474  cd depth
+  475  depth_2nd.py depth.out
+  476  depth_2nd.py depth.out
+  477  depth_2nd.py depth.out
+  478  depth_2nd.py depth.out
+  479  depth_2nd.py depth.out
+  480  depth_2nd.py depth.out
+  481  depth_2nd.py depth.out
+  482  depth_2nd.py depth.out
+  483  depth_2nd.py depth.out
+  484  depth_2nd.py depth.out
+  485  depth_2nd.py depth.out
+  486  depth_2nd.py depth.out
+  487  depth_2nd.py depth.out
+  488  depth_2nd.py depth.out
+  489  ssh dsucich2@jhu.edu@gateway.2.marcc.jhu.edu
+  490  ls
+  491  cd schatz
+  492  ls
+  493  cd RNAseq-tutorial/
+  494  ls
+  495  cd Exercise3/
+  496  ls
+  497  ls
+  498  cd ..
+  499  ls
+  500  cd Exercise1
+  501  nano .bash_profile
+  502  conda create -n tophat
+  503  source activate tophat
+  504  conda install tophat
+  505  tophat
+  506  ls
+  507  cd schatz
+  508  ls 
+  509  cd RNAseq-tutorial/
+  510  ls
+  511  cd Exercise1
+  512  ls
+  513  cd challenge2/
+  514  ls
+  515  tophat -p 8 -o t1_thout ecoli_bt2 t1.1.fq t1.2.fq
+  516  tophat -p 8 --no-coverage-search -o t1_thout ecoli_bt2 t1.1.fq t1.2.fq
+  517  tophat -p 8 -o t1_thout ecoli.fa t1.1.fq t1.2.fq
+  518  bowtie2
+  519  bowtie2-build ecoli.fa ecoli_bt2
+  520  tophat -p 8 --no-coverage-search -o t1_thout ecoli_bt2 t1.1.fq t1.2.fq
+  521  tophat -p 8 --no-coverage-search -o t1_thout ecoli_bt2 t1.1.fq t1.2.fq
+  522  cufflinks -p 8 -o t1_clout t1_bt2.bam
+  523  cufflinks -h
+  524  cufflinks -p 8 -o t2_clout t2_bt2.bam
+  525  cufflinks -p 8 -o t3_clout t3_bt2.bam
+  526  cufflinks -p 8 -o t4_clout t4_bt2.bam
+  527  cufflinks -p 8 -o t5_clout t5_bt2.bam
+  528  cufflinks -p 8 -o t6_clout t6_bt2.bam
+  529  cufflinks -p 8 -o t7_clout t7_bt2.bam
+  530  cufflinks -p 8 -o t8_clout t8_bt2.bam
+  531  cufflinks -p 8 -o t9_clout t9_bt2.bam
+  532  cufflinks -p 8 -o t9_clout t9_bt2.bam
+  533  cufflinks -p 8 -o t10_clout t10_bt2.bam
+  534  history > cufflinks.log
+  535  cuffmerge
+  536  assembly.txt
+  537  cuffmerge -g refgenes.ptt -s ecoli.fa -p 8 assembly.txt
+  538  cuffmerge -s ecoli.fa -p 8 assembly.txt
+  539  cuffmerge -s ecoli.fa -p 8 assembly.txt
+  540  ls
+  541  cuffdiff -o diffout -b ecoli.fa -p 8 -L 
+  542  history > logTopHat.log

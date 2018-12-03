@@ -1,0 +1,500 @@
+  161  awk 'NR>1''{gsub ("_","\t")}{print}' BYxRM_PhenoData.txt > pheno.txt
+  162  less -S phento.txt
+  163  less -S pheno.txt
+  164  less -S pheno.txt
+  165  plink --vcf BYxRM_segs_saccer3.bam.simplified.vcf --pheno pheno.txt --assoc --allow-no-sex --mind 
+  166  plink --vcf BYxRM_segs_saccer3.bam.simplified.vcf --pheno pheno.txt --assoc --allow-no-sex --mind --allow-extra-chr
+  167  ls -alh
+  168  less -S plink.qassoc
+  169  less -S plink.qassoc
+  170  ./class4-hw.py plink.eigenvec BYxRM_segs_saccer3.bam.simplified.vcf plink.qassoc Cadmium_Chloride Caffeine Calcium_Chloride Cisplatin Cobalt_Chloride Congo_red Copper Cycloheximide Diamide E6_Berbamine Ethanol Formamide Galactose Hydrogen_Peroxide Hydroquinone Hydroxyurea Indoleacetic_Acid Lactate Lactose Lithium_Chloride Magnesium_Chloride Magnesium_Sulfate Maltose Mannose Menadione Neomycin Paraquat Raffinose SDS Sorbitol Trehalose Tunicamycin x4-Hydroxybenzaldehyde x4NQO x5-Fluorocytosine x5-Fluorouracil
+  171  ./class4-hw.py plink.eigenvec BYxRM_segs_saccer3.bam.simplified.vcf plink.qassoc Cadmium_Chloride Caffeine Calcium_Chloride Cisplatin Cobalt_Chloride Congo_red Copper Cycloheximide Diamide E6_Berbamine Ethanol Formamide Galactose Hydrogen_Peroxide Hydroquinone Hydroxyurea Indoleacetic_Acid Lactate Lactose Lithium_Chloride Magnesium_Chloride Magnesium_Sulfate Maltose Mannose Menadione Neomycin Paraquat Raffinose SDS Sorbitol Trehalose Tunicamycin x4-Hydroxybenzaldehyde x4NQO x5-Fluorocytosine x5-Fluorouracil
+  172  plink --vcf BYxRM_segs_saccer3.bam.simplified.vcf --pheno pheno.txt --assoc --allow-no-sex --mind --allow-extra-chr --all-pheno
+  173  ls -alh
+  174  less -S plink.Caffeine.qassoc 
+  175  ./class4-hw.py plink.eigenvec BYxRM_segs_saccer3.bam.simplified.vcf plink.qassoc Cadmium_Chloride Caffeine Calcium_Chloride Cisplatin Cobalt_Chloride Congo_red Copper Cycloheximide Diamide E6_Berbamine Ethanol Formamide Galactose Hydrogen_Peroxide Hydroquinone Hydroxyurea Indoleacetic_Acid Lactate Lactose Lithium_Chloride Magnesium_Chloride Magnesium_Sulfate Maltose Mannose Menadione Neomycin Paraquat Raffinose SDS Sorbitol Trehalose Tunicamycin x4-Hydroxybenzaldehyde x4NQO x5-Fluorocytosine x5-Fluorouracil
+  176  less -S plink.Caffeine.qassoc 
+  177  mate class4-hw1.py
+  178  mate class4-hw2.py
+  179  mate class4-hw3.py
+  180  ls -alh
+  181  ls -alh
+  182  ./class4-hw3.py *.qassoc
+  183  ./class4-hw3.py plink.Cadmium_Chloride.qassoc plink.Cadmium_Chloride.qassoc plink.Caffeine.qassoc
+  184  ./class4-hw3.py plink.Cadmium_Chloride.qassoc plink.Cadmium_Chloride.qassoc plink.Caffeine.qassoc
+  185  ./class4-hw3.py BYxRM_PhenoData.txt plink.Cadmium_Chloride.qassoc plink.Cadmium_Chloride.qassoc plink.Caffeine.qassoc
+  186  less -S BYxRM_PhenoData.txt
+  187  less -S plink.Caffeine.qassoc 
+  188  git add class4-hw1.py class4-hw2.py PCA2vsPCA1.png Allele_Freq.png
+  189  git commit -m "PCA and Allele Frequency with code for each"
+  190  git push
+  191  ./class4-hw3.py BYxRM_PhenoData.txt plink.Cadmium_Chloride.qassoc plink.Cadmium_Chloride.qassoc plink.Caffeine.qassoc
+  192  ./class4-hw3.py BYxRM_PhenoData.txt plink.Cadmium_Chloride.qassoc plink.Cadmium_Chloride.qassoc plink.Caffeine.qassoc
+  193  ./class4-hw3.py BYxRM_PhenoData.txt plink.Cadmium_Chloride.qassoc plink.Cadmium_Chloride.qassoc plink.Caffeine.qassoc
+  194  ./class4-hw3.py BYxRM_PhenoData.txt plink.Cadmium_Chloride.qassoc plink.Cadmium_Chloride.qassoc plink.Caffeine.qassoc
+  195  ./class4-hw3.py BYxRM_PhenoData.txt plink.Cadmium_Chloride.qassoc plink.Cadmium_Chloride.qassoc plink.Caffeine.qassoc
+  196  ./class4-hw3.py BYxRM_PhenoData.txt plink.Cadmium_Chloride.qassoc plink.Caffeine.qassoc plink.Calcium_Chloride.qassoc plink.Cisplatin.qassoc plink.Cobalt_Chloride.qassoc plink.Congo_red.qassoc plink.Copper.qassoc plink.Cycloheximide.qassoc plink.Diamide.qassoc plink.E6_Berbamine.qassoc plink.Ethanol.qassoc
+  197  ./class4-hw3.py BYxRM_PhenoData.txt plink.Cadmium_Chloride.qassoc plink.Caffeine.qassoc plink.Calcium_Chloride.qassoc plink.Cisplatin.qassoc plink.Cobalt_Chloride.qassoc plink.Congo_red.qassoc plink.Copper.qassoc plink.Cycloheximide.qassoc plink.Diamide.qassoc plink.E6_Berbamine.qassoc plink.Ethanol.qassoc
+  198  ./class4-hw3.py BYxRM_PhenoData.txt plink.Cadmium_Chloride.qassoc plink.Caffeine.qassoc plink.Calcium_Chloride.qassoc plink.Cisplatin.qassoc plink.Cobalt_Chloride.qassoc plink.Congo_red.qassoc plink.Copper.qassoc plink.Cycloheximide.qassoc plink.Diamide.qassoc plink.E6_Berbamine.qassoc plink.Ethanol.qassoc
+  199  ./class4-hw3.py BYxRM_PhenoData.txt plink.Cadmium_Chloride.qassoc plink.Caffeine.qassoc plink.Calcium_Chloride.qassoc plink.Cisplatin.qassoc plink.Cobalt_Chloride.qassoc plink.Congo_red.qassoc plink.Copper.qassoc plink.Cycloheximide.qassoc plink.Diamide.qassoc plink.E6_Berbamine.qassoc plink.Ethanol.qassoc
+  200  ./class4-hw3.py BYxRM_PhenoData.txt plink.Cadmium_Chloride.qassoc plink.Caffeine.qassoc plink.Calcium_Chloride.qassoc plink.Cisplatin.qassoc plink.Cobalt_Chloride.qassoc plink.Congo_red.qassoc plink.Copper.qassoc plink.Cycloheximide.qassoc plink.Diamide.qassoc plink.E6_Berbamine.qassoc plink.Ethanol.qassoc
+  201  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  202  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  203  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  204  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  205  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  206  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  207  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  208  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  209  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  210  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  211  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  212  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  213  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  214  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  215  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  216  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  217  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  218  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  219  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  220  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  221  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  222  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  223  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  224  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  225  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  226  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  227  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  228  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  229  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  230  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  231  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  232  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  233  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  234  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  235  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  236  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  237  ./class4-hw3.py BYxRM_PhenoData.txt *.qassoc
+  238  less -S /Users/cmdb/Desktop/DGS/GSE113979_Normalized_Counts.txt 
+  239  log
+  240  history
+  241  history > tistory.txt
+  242  less -alh
+  243  ls -alh
+  244  cp tistory.txt history.txt
+  245  ls
+  246  rm tistory.txt 
+  247  ls
+  248  cd ..
+  249  ls
+  250  cd class1
+  251  ls
+  252  mate class1-exercise1.py 
+  253  ./class1-exercise1.py seqs.fa seqs.mafft
+  254  ./class1-exercise1.py seqs.fa seqs.mafft
+  255  ./class1-exercise1.py seqs.fa seqs.mafft
+  256  clear
+  257  ./class1-exercise1.py seqs.fa seqs.mafft
+  258  ./class1-exercise1.py seqs.fa seqs.mafft
+  259  ./class1-exercise1.py seqs.fa seqs.mafft
+  260  ls -alh
+  261  open Nonsynonymous_to_Synonymous.png 
+  262  ./class1-exercise1.py seqs.fa seqs.mafft
+  263  ./class1-exercise1.py seqs.fa seqs.mafft
+  264  ./class1-exercise1.py seqs.fa seqs.mafft
+  265  ./class1-exercise1.py seqs.fa seqs.mafft
+  266  ./class1-exercise1.py seqs.fa seqs.mafft
+  267  ./class1-exercise1.py seqs.fa seqs.mafft
+  268  open Nonsynonymous_to_Synonymous.png 
+  269  open Nonsynonymous_to_Synonymous.png 
+  270  ./class1-exercise1.py seqs.fa seqs.mafft
+  271  open Nonsynonymous_to_Synonymous.png 
+  272  ./class1-exercise1.py seqs.fa seqs.mafft
+  273  open Nonsynonymous_to_Synonymous.png 
+  274  open Nonsynonymous_to_Synonymous.png 
+  275  git status
+  276  git add class1-exercise1.py Nonsynonymous_to_Synonymous.png 
+  277  git commit -m "Sequence Alignment and Evolution"
+  278  git push
+  279  ./class1-exercise1.py seqs.fa seqs.mafft
+  280  git add Nonsynonymous_to_Synonymous.png 
+  281  git commit -m "Sequence Alignment and Evolution"
+  282  git push
+  283  ls -alh
+  284  open Nonsynonymous_to_Synonymous.png 
+  285  git add Nonsynonymous_to_Synonymous.png 
+  286  git commit -m "Correct Plot"
+  287  git push
+  288  git add Nonsynonymous_to_Synonymous_.png 
+  289  open Nonsynonymous_to_Synonymous.png 
+  290  ./class1-exercise1.py seqs.fa seqs.mafft
+  291  git add dNdS.png 
+  292  git commit -m "Correct Plot"
+  293  git push
+  294  git rm Nonsynonymous_to_Synonymous.png 
+  295  ls
+  296  git commit -m "Remove wrong plot"
+  297  git push
+  298  cd ..
+  299  ls
+  300  cd class2
+  301  ls
+  302  cd Assem
+  303  ls
+  304  cd ..
+  305  mate class2-homework.py
+  306  ls
+  307  cd spadesdir
+  308  ls
+  309  cd ..
+  310  cd velvetoutput/
+  311  ls
+  312  ls
+  313  ls 
+  314  ./class2-homework.py /spadesdir/contigs.fasta
+  315  ./class2-homework.py ../spadesdir/contigs.fasta
+  316  ./class2-homework.py /Users/cmdb/qbb2018-answers/class2/spadesdir/contigs.fasta 
+  317  ./class2-homework.py /Users/cmdb/qbb2018-answers/class2/spadesdir/contigs.fasta 
+  318  ./class2-homework.py /Users/cmdb/qbb2018-answers/class2/spadesdir/contigs.fasta 
+  319  ls -alh
+  320  velveth Assem 31 -shortPaired -fastq reads_low_1.fastq reads_low_2.fastq
+  321  ls -alh
+  322  cd velvetoutput/
+  323  ls
+  324  cd ..
+  325  time velvetg velvet
+  326  mkdir velvet
+  327  time velvetg velvet
+  328  cd Assem
+  329  time velvetg velvet
+  330  mkdir velvet
+  331  time velvetg velvet
+  332  velvetg velvet
+  333  cd ..
+  334  ls
+  335  velvetg Assem
+  336  spades.py --only-assembler --12 reads_low_1.fastq --12 reads_low_2.fastq -o spadesdir
+  337  ls -alh
+  338  lastz reference.fasta ./Assem/contigs.fa --format=general:zstart1,end1,name2 --chains -–output=velvet_low_reads_lastz.out
+  339  lastz reference.fasta ./Assem/contigs.fa --format=general:zstart1,end1,name2 --chain -–output=velvet_low_reads_lastz.out
+  340  lastz reference.fasta ./Assem/contigs.fa --format=general:zstart1,end1,name2 --[no]chain -–output=velvet_low_reads_lastz.out
+  341  lastz --help=files
+  342  lastz --help
+  343  lastz reference.fasta ./Assem/contigs.fa --format=general:zstart1,end1,name2 --chain -–output=velvet_low_reads_lastz.out
+  344  lastz reference.fasta ./Assem/contigs.fa --format=general:zstart1,end1,name2 --chain -–output=velvet_low_reads_lastz.out
+  345  lastz reference.fasta ./Assem/contigs.fa --format=general:zstart1,end1,name2 --chain -–output=velvet_low_reads_lastz.out
+  346  lastz reference.fasta ./Assem/contigs.fa --format=general:zstart1,size2,end1,name2 --chain --output=velvet_dotplot.out
+  347  sort -k 1 -n velvet_dotplot.out > velvet_dotplot_sorted.out
+  348  ls -alh
+  349  lastz reference.fasta /Users/cmdb/qbb2018-answers/class2/spadesdir/contigs.fasta --format=general:zstart1,size2,end1,name2 --chain --output=spades_dotplot.out
+  350  sort -k 1 -n spades_dotplot.out > spades_dotplot_sorted.out
+  351  velveth Better 31 -shortPaired -fastq reads_1.fastq reads_2.fastq
+  352  velvetg Better
+  353  spades.py --only-assembler --12 reads_1.fastq --12 reads_2.fastq -o spadesdir
+  354  ls -alh
+  355  lastz reference.fasta ./Better/contigs.fa --format=general:zstart1,end1,name2 --chains -–output=velvet_better_reads_lastz.out
+  356  lastz reference.fasta ./Better/contigs.fa --format=general:zstart1,end1,name2 --chain -–output=velvet_better_reads_lastz.out
+  357  lastz reference.fasta /Users/cmdb/qbb2018-answers/class2/Better/contigs.fa --format=general:zstart1,size2,end1,name2 --chain --output=velvet_Better_dotplot.out
+  358  sort -k 1 -n velvet_Better_dotplot.out > velvet_Better_dotplot_sorted.out
+  359  spades.py --only-assembler --12 reads_1.fastq --12 reads_2.fastq -o spadesdir_Better
+  360  ls -alh
+  361  cd spadesdir_Better/
+  362  ls
+  363  cd ..
+  364  ls
+  365  spades.py --only-assembler --12 reads_1.fastq --12 reads_2.fastq -o spadesdir_better
+  366  spades.py --only-assembler --12 reads_1.fastq --12 reads_2.fastq -o spadesdir_better
+  367  spades.py --only-assembler -o /Users/cmdb/qbb2018-answers/class2/ -1 reads_1.fastq -2 reads_2.fastq
+  368  lastz reference.fasta /Users/cmdb/qbb2018-answers/class2/spadesdir_Better/contigs.fasta --format=general:zstart1,size2,end1,name2 --chain --output=spades_Better_dotplot.out
+  369  sort -k 1 -n spades_Better_dotplot.out > spades_Better_dotplot_sorted.out
+  370  spades.py --only-assembler -o /Users/cmdb/qbb2018-answers/class2/spadesdir_low -1 reads_low_1.fastq -2 reads_low_2.fastq
+  371  lastz reference.fasta /Users/cmdb/qbb2018-answers/class2/spadesdir_low/contigs.fasta --format=general:zstart1,size2,end1,name2 --chain --output=spades_low_dotplot.out
+  372  sort -k 1 -n spades_low_dotplot.out > spades_low_dotplot_sorted.out
+  373  velveth MAP006 31 -shortPaired -fastq MAP006.subset.fa
+  374  velveth
+  375  lastz reference.fasta Users/cmdb/qbb2018-answers/class2/MAP006.subset.fa --format=general:zstart1,size2,end1,name2 --chain --output=spades_MAP006_dotplot.out
+  376  velveth MAP006 31 -shortPaired -fastq Users/cmdb/qbb2018-answers/class2/MAP006.subset.fa
+  377  velveth MAP006 31 -shortPaired -fmtAuto Users/cmdb/qbb2018-answers/class2/MAP006.subset.fa
+  378  spades.py --only-assembler -o Users/cmdb/qbb2018-answers/class2/MAP006 -1 reads_low_1.fastq -2 reads_low_2.fastq --nanopore Users/cmdb/qbb2018-answers/class2/MAP006.subset.fa
+  379  spades.py --only-assembler -o Users/cmdb/qbb2018-answers/class2/MAP006 -1 reads_low_1.fastq -2 reads_low_2.fastq --nanopore MAP006.subset.fa
+  380  lastz reference.fasta /Users/cmdb/qbb2018-answers/class2/MAP006/contigs.fasta --format=general:zstart1,size2,end1,name2 --chain --output=MAP006_dotplot.out
+  381  sort -k 1 -n MAP006_dotplot.out > MAP006_dotplot_sorted.out
+  382  ./class2-homework.py /Users/cmdb/qbb2018-answers/class2/Assem/contigs.fa 
+  383  ./class2-homework.py /Users/cmdb/qbb2018-answers/class2/Assem/contigs.fa 
+  384  ./class2-homework.py /Users/cmdb/qbb2018-answers/class2/Assem/contigs.fa > velvet_low.stats
+  385  ./class2-homework.py /Users/cmdb/qbb2018-answers/class2/Better/contigs.fa > velvet_Better.stats
+  386  ./class2-homework.py /Users/cmdb/qbb2018-answers/class2/spadesdir_low/contigs.fasta > spades_low.stats
+  387  ./class2-homework.py /Users/cmdb/qbb2018-answers/class2/spadesdir_Better/contigs.fasta > spades_Better.stats
+  388  ./class2-homework.py /Users/cmdb/qbb2018-answers/class2/MAP006/contigs.fasta > MAP006.stats
+  389  less -S velvet_low.stats 
+  390  less -S velvet_Better.stats 
+  391  less -S spades_low.stats 
+  392  less -S spades_Better.stats 
+  393  less -S MAP006.stats 
+  394  mate class2-homework2.py
+  395  ./class2-homework2.py velvet_low_dotplot_sorted.out velvet_low_dotplot_sorted
+  396  ls -alh
+  397  open velvet_low_dotplot_sorted.png
+  398  ./class2-homework2.py velvet_Better_dotplot_sorted.out velvet_Better_dotplot_sorted
+  399  ./class2-homework2.py spades_low_dotplot_sorted.out spades_low_dotplot_sorted
+  400  ./class2-homework2.py spades_Better_dotplot_sorted.out spades_Better_dotplot_sorted
+  401  ./class2-homework2.py MAP006_dotplot_sorted.out MAP006_Better_dotplot_sorted
+  402  ls -alh
+  403  ./class2-homework2.py MAP006_dotplot_sorted.out MAP006_dotplot_sorted
+  404  ls -alh
+  405  rm MAP006_Better_dotplot_sorted.png 
+  406  ls -alh
+  407  open MAP006_dotplot_sorted.png spades_Better_dotplot_sorted.png spades_low_dotplot_sorted.png velvet_Better_dotplot_sorted.png velvet_low_dotplot_sorted.png
+  408  ./class2-homework2.py velvet_low_dotplot_sorted.out velvet_low_dotplot_sorted
+  409  ./class2-homework2.py velvet_Better_dotplot_sorted.out velvet_Better_dotplot_sorted
+  410  ./class2-homework2.py spades_low_dotplot_sorted.out spades_low_dotplot_sorted
+  411  ./class2-homework2.py spades_Better_dotplot_sorted.out spades_Better_dotplot_sorted
+  412  ./class2-homework2.py MAP006_dotplot_sorted.out MAP006_dotplot_sorted
+  413  open MAP006_dotplot_sorted.png spades_Better_dotplot_sorted.png spades_low_dotplot_sorted.png velvet_Better_dotplot_sorted.png velvet_low_dotplot_sorted.png
+  414  git add class2-homework.py class2-homework2.py MAP006.stats MAP006_dotplot_sorted.out MAP006_dotplot_sorted.png spades_Better.stats spades_Better_dotplot_sorted.out spades_Better_dotplot_sorted.png spades_low.stats spades_low_dotplot_sorted.out spades_low_dotplot_sorted.png velvet_Better.stats velvet_Better_dotplot_sorted.out velvet_Better_dotplot_sorted.png velvet_low.stats velvet_low_dotplot_sorted.out velvet_low_dotplot_sorted.png 
+  415  git commit -m "Genome Assembly Scripts for Assembling and Plotting and Plots"
+  416  git push
+  417  cd ../class3
+  418  ls
+  419  cd ../class2
+  420  ls
+  421  history
+  422  history > history_of_Commands.txt
+  423  ls
+  424  cd ..
+  425  ls
+  426  mkdir class6
+  427  cd class6
+  428  ls
+  429  ls -alh
+  430  tar -xz g1e.tar.xz
+  431  tar --xz g1e.tar.xz
+  432  tar -xJ g1e.tar.xz
+  433  tar --xJ g1e.tar.xz
+  434  tar --xf g1e.tar.xz
+  435  bowtie2-build chr19.fa > chr19index
+  436  bowtie2-build chr19.fa chr19index
+  437  bowtie2
+  438  conda create -n macs2 macs2 
+  439  bowtie2
+  440  bowtie2 -p 8 -x chr19index CTCF_G1E.fastq -S 
+  441  bowtie2 -p 8 -x chr19index -q CTCF_G1E.fastq -S CTCF_G1E.sam
+  442  bowtie2 -p 8 -x chr19index -q CTCF_ER4.fastq -S CTCF_ER4.sam
+  443  bowtie2 -p 8 -x chr19index -q input_ER4.fastq -S input_ER4.sam
+  444  bowtie2 -p 8 -x chr19index -q input_G1E.fastq -S input_G1E.sam
+  445  source activate macs2
+  446  macs2 callpeak
+  447  macs2 callpeak -p 8 -h -t CTCF_G1E.sam -c input_G1E.sam -f SAM 
+  448  macs2 callpeak -p 8 -t CTCF_G1E.sam -c input_G1E.sam -f SAM 
+  449  macs2 callpeak -p 8 -t CTCF_G1E.sam -c input_G1E.sam -f SAM -outdir G1E
+  450  macs2 callpeak -p 8 -t CTCF_G1E.sam -c input_G1E.sam -f SAM -outdir g1e
+  451  macs2 callpeak -p 8 -t CTCF_ER4.sam -c input_ER4.sam -f SAM --outdir G1E 
+  452  macs2 callpeak -p 8 -t CTCF_G1E.sam -c input_G1E.sam -f SAM -outdir g1e --name G1E
+  453  macs2 callpeak -p 8 -t CTCF_G1E.sam -c input_G1E.sam -f SAM --outdir g1e --name G1E
+  454  macs2 callpeak -p 8 -t CTCF_ER4.sam -c input_ER4.sam -f SAM --outdir ER4 noname
+  455  source deactivate
+  456  source activate macs2
+  457  macs2 callpeak -p 8 -t CTCF_ER4.sam -c input_ER4.sam -f SAM --outdir ER4noname
+  458  macs2 callpeak -p 8 -t CTCF_ER4.sam -c input_ER4.sam -f SAM --name ER4
+  459  macs2 callpeak -p 8 -t CTCF_G1E.sam -c input_G1E.sam -f SAM --name G1E
+  460  source deactivate
+  461  bedtools
+  462  less -S G1E_peaks.narrowPeak 
+  463  ls -alh
+  464  source activate macs2
+  465  macs2 callpeak -p 8 -t CTCF_G1E.sam -c input_G1E.sam -f SAM --outdir g1e --name G1E
+  466  macs2 callpeak -t CTCF_G1E.sam -c input_G1E.sam -f SAM --outdir g1e --name G1E
+  467  macs2 callpeak -t CTCF_G1E.sam -c input_G1E.sam -f SAM --name G1E
+  468  macs2 callpeak -t CTCF_ER4.sam -c input_ER4.sam -f SAM --name ER4
+  469  ls -alh
+  470  source deactiva
+  471  bedtools intersect -a ER4_peaks.narrowPeak -b G1E_peaks.narrowPeak -v > peaksGained
+  472  bedtools intersect -a G1E_peaks.narrowPeak -b ER4_peaks.narrowPeak -v > peaksLost
+  473  less -S peaksGained 
+  474  less -S Mus_musculus.GRCm38.94_features.bed 
+  475  history > class6-history.log
+  476  mate class6-homework.py
+  477   ls -alh
+  478  less -S peaksGained 
+  479  less -S peaksGained 
+  480  less -S peaksGained 
+  481  less -S peaksGained 
+  482  less -S peaksGained 
+  483  cd ..
+  484  mkdir class7
+  485  cd class7
+  486  ls
+  487  wget "https://raw.githubusercontent.com/bxlab/qbb2018/master/data/ER4_peaks.narrowPeak"
+  488  ls
+  489  conda install meme
+  490  meme
+  491  meme -help
+  492  meme chip
+  493  meme-chip
+  494  log 
+  495  history > class7history.txt
+  496  ls
+  497  cs..
+  498  cd ..
+  499  ls
+  500  cd qbb2018
+  501  ls
+  502  cd ..
+  503  cd qbb2018-answers/
+  504  ls
+  505  cd class10
+  506  ls
+  507  conda install scipy
+  508  mate class10-exercise.py
+  509  class10-exercise.py hema_data.txt 
+  510  scipy help
+  511  class10-exercise.py hema_data.txt 
+  512  class10-exercise.py hema_data.txt 
+  513  class10-exercise.py hema_data.txt 
+  514  class10-exercise.py hema_data.txt 
+  515  class10-exercise.py hema_data.txt 
+  516  class10-exercise.py hema_data.txt 
+  517  class10-exercise.py hema_data.txt 
+  518  class10-exercise.py hema_data.txt 
+  519  class10-exercise.py hema_data.txt 
+  520  less -S hema_data.txt 
+  521  less -S hema_data.txt 
+  522  class10-exercise.py hema_data.txt 
+  523  class10-exercise.py hema_data.txt 
+  524  class10-exercise.py hema_data.txt 
+  525  class10-exercise.py hema_data.txt 
+  526  class10-exercise.py hema_data.txt 
+  527  class10-exercise.py hema_data.txt 
+  528  class10-exercise.py hema_data.txt 
+  529  class10-exercise.py hema_data.txt 
+  530  class10-exercise.py hema_data.txt 
+  531  class10-exercise.py hema_data.txt 
+  532  class10-exercise.py hema_data.txt 
+  533  class10-exercise.py hema_data.txt 
+  534  class10-exercise.py hema_data.txt 
+  535  class10-exercise.py hema_data.txt 
+  536  class10-exercise.py hema_data.txt 
+  537  class10-exercise.py hema_data.txt 
+  538  class10-exercise.py hema_data.txt 
+  539  class10-exercise.py hema_data.txt 
+  540  class10-exercise.py hema_data.txt 
+  541  class10-exercise.py hema_data.txt 
+  542  class10-exercise.py hema_data.txt 
+  543  ls
+  544  open dendrogram.png 
+  545  class10-exercise.py hema_data.txt 
+  546  class10-exercise.py hema_data.txt 
+  547  class10-exercise.py hema_data.txt 
+  548  class10-exercise.py hema_data.txt 
+  549  class10-exercise.py hema_data.txt 
+  550  ls 
+  551  open dendrogram.png 
+  552  class10-exercise.py hema_data.txt 
+  553  open dendrogrambycelltype.png.png 
+  554  open dendrogrambycelltype.png
+  555  open dendrogrambycelltype.png
+  556  class10-exercise.py hema_data.txt 
+  557  class10-exercise.py hema_data.txt 
+  558  class10-exercise.py hema_data.txt 
+  559  class10-exercise.py hema_data.txt 
+  560  class10-exercise.py hema_data.txt 
+  561  class10-exercise.py hema_data.txt 
+  562  class10-exercise.py hema_data.txt 
+  563  class10-exercise.py hema_data.txt 
+  564  class10-exercise.py hema_data.txt 
+  565  class10-exercise.py hema_data.txt 
+  566  class10-exercise.py hema_data.txt 
+  567  class10-exercise.py hema_data.txt 
+  568  ls
+  569  open clean_heatmap.png 
+  570  class10-exercise.py hema_data.txt 
+  571  open clean_heatmap.png 
+  572  class10-exercise.py hema_data.txt 
+  573  open clean_heatmap.png 
+  574  class10-exercise.py hema_data.txt 
+  575  class10-exercise.py hema_data.txt 
+  576  class10-exercise.py hema_data.txt 
+  577  open clean_heatmap.png 
+  578  class10-exercise.py hema_data.txt 
+  579  open clean_heatmap.png 
+  580  class10-exercise.py hema_data.txt 
+  581  open clean_heatmap.png 
+  582  class10-exercise.py hema_data.txt 
+  583  open clean_heatmap.png 
+  584  class10-exercise.py hema_data.txt 
+  585  open clean_heatmap.png 
+  586  class10-exercise.py hema_data.txt 
+  587  open clean_heatmap.png 
+  588  class10-exercise.py hema_data.txt 
+  589  open clean_heatmap.png 
+  590  class10-exercise.py hema_data.txt 
+  591  open clean_heatmap.png 
+  592  class10-exercise.py hema_data.txt 
+  593  open clean_heatmap.png 
+  594  class10-exercise.py hema_data.txt 
+  595  open clean_heatmap.png 
+  596  class10-exercise.py hema_data.txt 
+  597  class10-exercise.py hema_data.txt 
+  598  class10-exercise.py hema_data.txt 
+  599  class10-exercise.py hema_data.txt 
+  600  class10-exercise.py hema_data.txt 
+  601  class10-exercise.py hema_data.txt 
+  602  class10-exercise.py hema_data.txt 
+  603  open clean_heatmap.png 
+  604  class10-exercise.py hema_data.txt 
+  605  open clean_heatmap.png 
+  606  open clean_heatmap.png 
+  607  class10-exercise.py expression.txt
+  608  open clean_heatmap.png 
+  609  class10-exercise.py expression.txt
+  610  class10-exercise.py expression.txt
+  611  class10-exercise.py expression.txt
+  612  open clean_heatmap.png 
+  613  class10-exercise.py expression.txt
+  614  open clean_heatmap.png 
+  615  class10-exercise.py expression.txt
+  616  class10-exercise.py expression.txt
+  617  open clean_heatmap.png 
+  618  class10-exercise.py expression.txt
+  619  open clean_heatmap.png 
+  620  cd..
+  621  cd
+  622  cd schatz
+  623  cd RNAseq-tutorial/
+  624  ls
+  625  cd Exercise\ 1\ /
+  626  ls
+  627  RNAseqHeatmapHeirarchicalClustering.py expression.txt 
+  628  ls
+  629  mate RNAseqHeatmapHeirarchicalClustering.py 
+  630  RNAseqHeatmapHeirarchicalClustering.py expression.txt Exercise1
+  631  open dendrogram_Exercise1.png 2xClustered_Exercise1_heatmap.png 
+  632  RNAseqHeatmapHeirarchicalClustering.py expression.txt Exercise1
+  633  open dendrogram_Exercise1.png 2xClustered_Exercise1_heatmap.png 
+  634  RNAseqHeatmapHeirarchicalClustering.py expression.txt Exercise1
+  635  open ClusteredDendrogram_Exercise1.png 2xClustered_Exercise1_heatmap.png 
+  636  RNAseqHeatmapHeirarchicalClustering.py expression.txt Exercise1
+  637  open ClusteredDendrogram_Exercise1.png 2xClustered_Exercise1_heatmap.png 
+  638  RNAseqHeatmapHeirarchicalClustering.py expression.txt Exercise1
+  639  open ClusteredDendrogram_Exercise1.png 2xClustered_Exercise1_heatmap.png 
+  640  RNAseqHeatmapHeirarchicalClustering.py expression.txt Exercise1
+  641  open ClusteredDendrogram_Exercise1.png 2xClustered_Exercise1_heatmap.png 
+  642  git add ClusteredDendrogram_Exercise1.png 2xClustered_Exercise1_heatmap.png RNAseqHeatmapHeirarchicalClustering.py 
+  643  git commit -m "Better Analysis of the Example RNAseq data"
+  644  git push
+  645  open ClusteredDendrogram_Exercise1.png 2xClustered_Exercise1_heatmap.png 
+  646  ls
+  647  tar -xfz rnaseq.2.pileup.tgz 
+  648  tar -xfg rnaseq.2.pileup.tgz 
+  649  tar -xf rnaseq.2.pileup.tgz 
+  650  ls
+  651  cd challenge2
+  652  ls
+  653  less -S README 
+  654  bwa index ecoli.fa 
+  655  ls
+  656  bwa aln
+  657  bwa aln t*
+  658  bwa aln t1.1.fq t1.2fq 
+  659  ls
+  660  history > log.txt

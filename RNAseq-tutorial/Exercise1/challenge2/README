@@ -1,0 +1,35 @@
+Challenge 2: Reads to Expression
+--------------------------------
+
+Dr. Jones is interested to identify which of her favorite 100 genes in E.coli are differentially expressed over 10 timepoints.
+See if you can't help her out!
+
+Input Files:
+
+1. ecoli.fa is the reference genome
+2. refgenes.ptt has a list of the 100 genes of interest
+3. tX.1.fq, tX.2.fq are the paired-end RNAseq reads collected from timepoint X for 1<=X<=10. 
+
+The reads are 50bp long from 200bp fragments with errors at a constant 2% error rate.
+
+
+Outputs:
+
+1. Construct an expression matrix with the average depth of coverage across each gene
+2. Plot of expression matrix (parallel coordinates, heatmap, etc)
+3. List of neutral, increasing, decreasing, and other "interesting"  genes. 
+
+
+Sketch:
+
+Index genome (bwa index)
+For each time point
+  Align reads to genome (bwa aln, bwa sampe)
+  Convert and sort alignments (samtools view, samtools sort)
+  Report coverage at each position samtools (samtools depth)
+  Compute average depth of each exon (your own code)
+Merge depths into expression matrix (your own code)
+Display heatmap / timeseries, identify special genes (your own R code)
+
+Good luck!
+

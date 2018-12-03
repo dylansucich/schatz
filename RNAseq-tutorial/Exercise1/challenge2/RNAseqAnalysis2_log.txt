@@ -1,0 +1,500 @@
+   60  git add Nonsynonymous_to_Synonymous.png 
+   61  git commit -m "Correct Plot"
+   62  git push
+   63  git add Nonsynonymous_to_Synonymous_.png 
+   64  open Nonsynonymous_to_Synonymous.png 
+   65  ./class1-exercise1.py seqs.fa seqs.mafft
+   66  git add dNdS.png 
+   67  git commit -m "Correct Plot"
+   68  git push
+   69  git rm Nonsynonymous_to_Synonymous.png 
+   70  ls
+   71  git commit -m "Remove wrong plot"
+   72  git push
+   73  cd ..
+   74  ls
+   75  cd class2
+   76  ls
+   77  cd Assem
+   78  ls
+   79  cd ..
+   80  mate class2-homework.py
+   81  ls
+   82  cd spadesdir
+   83  ls
+   84  cd ..
+   85  cd velvetoutput/
+   86  ls
+   87  ls
+   88  ls 
+   89  ./class2-homework.py /spadesdir/contigs.fasta
+   90  ./class2-homework.py ../spadesdir/contigs.fasta
+   91  ./class2-homework.py /Users/cmdb/qbb2018-answers/class2/spadesdir/contigs.fasta 
+   92  ./class2-homework.py /Users/cmdb/qbb2018-answers/class2/spadesdir/contigs.fasta 
+   93  ./class2-homework.py /Users/cmdb/qbb2018-answers/class2/spadesdir/contigs.fasta 
+   94  ls -alh
+   95  velveth Assem 31 -shortPaired -fastq reads_low_1.fastq reads_low_2.fastq
+   96  ls -alh
+   97  cd velvetoutput/
+   98  ls
+   99  cd ..
+  100  time velvetg velvet
+  101  mkdir velvet
+  102  time velvetg velvet
+  103  cd Assem
+  104  time velvetg velvet
+  105  mkdir velvet
+  106  time velvetg velvet
+  107  velvetg velvet
+  108  cd ..
+  109  ls
+  110  velvetg Assem
+  111  spades.py --only-assembler --12 reads_low_1.fastq --12 reads_low_2.fastq -o spadesdir
+  112  ls -alh
+  113  lastz reference.fasta ./Assem/contigs.fa --format=general:zstart1,end1,name2 --chains -–output=velvet_low_reads_lastz.out
+  114  lastz reference.fasta ./Assem/contigs.fa --format=general:zstart1,end1,name2 --chain -–output=velvet_low_reads_lastz.out
+  115  lastz reference.fasta ./Assem/contigs.fa --format=general:zstart1,end1,name2 --[no]chain -–output=velvet_low_reads_lastz.out
+  116  lastz --help=files
+  117  lastz --help
+  118  lastz reference.fasta ./Assem/contigs.fa --format=general:zstart1,end1,name2 --chain -–output=velvet_low_reads_lastz.out
+  119  lastz reference.fasta ./Assem/contigs.fa --format=general:zstart1,end1,name2 --chain -–output=velvet_low_reads_lastz.out
+  120  lastz reference.fasta ./Assem/contigs.fa --format=general:zstart1,end1,name2 --chain -–output=velvet_low_reads_lastz.out
+  121  lastz reference.fasta ./Assem/contigs.fa --format=general:zstart1,size2,end1,name2 --chain --output=velvet_dotplot.out
+  122  sort -k 1 -n velvet_dotplot.out > velvet_dotplot_sorted.out
+  123  ls -alh
+  124  lastz reference.fasta /Users/cmdb/qbb2018-answers/class2/spadesdir/contigs.fasta --format=general:zstart1,size2,end1,name2 --chain --output=spades_dotplot.out
+  125  sort -k 1 -n spades_dotplot.out > spades_dotplot_sorted.out
+  126  velveth Better 31 -shortPaired -fastq reads_1.fastq reads_2.fastq
+  127  velvetg Better
+  128  spades.py --only-assembler --12 reads_1.fastq --12 reads_2.fastq -o spadesdir
+  129  ls -alh
+  130  lastz reference.fasta ./Better/contigs.fa --format=general:zstart1,end1,name2 --chains -–output=velvet_better_reads_lastz.out
+  131  lastz reference.fasta ./Better/contigs.fa --format=general:zstart1,end1,name2 --chain -–output=velvet_better_reads_lastz.out
+  132  lastz reference.fasta /Users/cmdb/qbb2018-answers/class2/Better/contigs.fa --format=general:zstart1,size2,end1,name2 --chain --output=velvet_Better_dotplot.out
+  133  sort -k 1 -n velvet_Better_dotplot.out > velvet_Better_dotplot_sorted.out
+  134  spades.py --only-assembler --12 reads_1.fastq --12 reads_2.fastq -o spadesdir_Better
+  135  ls -alh
+  136  cd spadesdir_Better/
+  137  ls
+  138  cd ..
+  139  ls
+  140  spades.py --only-assembler --12 reads_1.fastq --12 reads_2.fastq -o spadesdir_better
+  141  spades.py --only-assembler --12 reads_1.fastq --12 reads_2.fastq -o spadesdir_better
+  142  spades.py --only-assembler -o /Users/cmdb/qbb2018-answers/class2/ -1 reads_1.fastq -2 reads_2.fastq
+  143  lastz reference.fasta /Users/cmdb/qbb2018-answers/class2/spadesdir_Better/contigs.fasta --format=general:zstart1,size2,end1,name2 --chain --output=spades_Better_dotplot.out
+  144  sort -k 1 -n spades_Better_dotplot.out > spades_Better_dotplot_sorted.out
+  145  spades.py --only-assembler -o /Users/cmdb/qbb2018-answers/class2/spadesdir_low -1 reads_low_1.fastq -2 reads_low_2.fastq
+  146  lastz reference.fasta /Users/cmdb/qbb2018-answers/class2/spadesdir_low/contigs.fasta --format=general:zstart1,size2,end1,name2 --chain --output=spades_low_dotplot.out
+  147  sort -k 1 -n spades_low_dotplot.out > spades_low_dotplot_sorted.out
+  148  velveth MAP006 31 -shortPaired -fastq MAP006.subset.fa
+  149  velveth
+  150  lastz reference.fasta Users/cmdb/qbb2018-answers/class2/MAP006.subset.fa --format=general:zstart1,size2,end1,name2 --chain --output=spades_MAP006_dotplot.out
+  151  velveth MAP006 31 -shortPaired -fastq Users/cmdb/qbb2018-answers/class2/MAP006.subset.fa
+  152  velveth MAP006 31 -shortPaired -fmtAuto Users/cmdb/qbb2018-answers/class2/MAP006.subset.fa
+  153  spades.py --only-assembler -o Users/cmdb/qbb2018-answers/class2/MAP006 -1 reads_low_1.fastq -2 reads_low_2.fastq --nanopore Users/cmdb/qbb2018-answers/class2/MAP006.subset.fa
+  154  spades.py --only-assembler -o Users/cmdb/qbb2018-answers/class2/MAP006 -1 reads_low_1.fastq -2 reads_low_2.fastq --nanopore MAP006.subset.fa
+  155  lastz reference.fasta /Users/cmdb/qbb2018-answers/class2/MAP006/contigs.fasta --format=general:zstart1,size2,end1,name2 --chain --output=MAP006_dotplot.out
+  156  sort -k 1 -n MAP006_dotplot.out > MAP006_dotplot_sorted.out
+  157  ./class2-homework.py /Users/cmdb/qbb2018-answers/class2/Assem/contigs.fa 
+  158  ./class2-homework.py /Users/cmdb/qbb2018-answers/class2/Assem/contigs.fa 
+  159  ./class2-homework.py /Users/cmdb/qbb2018-answers/class2/Assem/contigs.fa > velvet_low.stats
+  160  ./class2-homework.py /Users/cmdb/qbb2018-answers/class2/Better/contigs.fa > velvet_Better.stats
+  161  ./class2-homework.py /Users/cmdb/qbb2018-answers/class2/spadesdir_low/contigs.fasta > spades_low.stats
+  162  ./class2-homework.py /Users/cmdb/qbb2018-answers/class2/spadesdir_Better/contigs.fasta > spades_Better.stats
+  163  ./class2-homework.py /Users/cmdb/qbb2018-answers/class2/MAP006/contigs.fasta > MAP006.stats
+  164  less -S velvet_low.stats 
+  165  less -S velvet_Better.stats 
+  166  less -S spades_low.stats 
+  167  less -S spades_Better.stats 
+  168  less -S MAP006.stats 
+  169  mate class2-homework2.py
+  170  ./class2-homework2.py velvet_low_dotplot_sorted.out velvet_low_dotplot_sorted
+  171  ls -alh
+  172  open velvet_low_dotplot_sorted.png
+  173  ./class2-homework2.py velvet_Better_dotplot_sorted.out velvet_Better_dotplot_sorted
+  174  ./class2-homework2.py spades_low_dotplot_sorted.out spades_low_dotplot_sorted
+  175  ./class2-homework2.py spades_Better_dotplot_sorted.out spades_Better_dotplot_sorted
+  176  ./class2-homework2.py MAP006_dotplot_sorted.out MAP006_Better_dotplot_sorted
+  177  ls -alh
+  178  ./class2-homework2.py MAP006_dotplot_sorted.out MAP006_dotplot_sorted
+  179  ls -alh
+  180  rm MAP006_Better_dotplot_sorted.png 
+  181  ls -alh
+  182  open MAP006_dotplot_sorted.png spades_Better_dotplot_sorted.png spades_low_dotplot_sorted.png velvet_Better_dotplot_sorted.png velvet_low_dotplot_sorted.png
+  183  ./class2-homework2.py velvet_low_dotplot_sorted.out velvet_low_dotplot_sorted
+  184  ./class2-homework2.py velvet_Better_dotplot_sorted.out velvet_Better_dotplot_sorted
+  185  ./class2-homework2.py spades_low_dotplot_sorted.out spades_low_dotplot_sorted
+  186  ./class2-homework2.py spades_Better_dotplot_sorted.out spades_Better_dotplot_sorted
+  187  ./class2-homework2.py MAP006_dotplot_sorted.out MAP006_dotplot_sorted
+  188  open MAP006_dotplot_sorted.png spades_Better_dotplot_sorted.png spades_low_dotplot_sorted.png velvet_Better_dotplot_sorted.png velvet_low_dotplot_sorted.png
+  189  git add class2-homework.py class2-homework2.py MAP006.stats MAP006_dotplot_sorted.out MAP006_dotplot_sorted.png spades_Better.stats spades_Better_dotplot_sorted.out spades_Better_dotplot_sorted.png spades_low.stats spades_low_dotplot_sorted.out spades_low_dotplot_sorted.png velvet_Better.stats velvet_Better_dotplot_sorted.out velvet_Better_dotplot_sorted.png velvet_low.stats velvet_low_dotplot_sorted.out velvet_low_dotplot_sorted.png 
+  190  git commit -m "Genome Assembly Scripts for Assembling and Plotting and Plots"
+  191  git push
+  192  cd ../class3
+  193  ls
+  194  cd ../class2
+  195  ls
+  196  history
+  197  history > history_of_Commands.txt
+  198  ls
+  199  cd ..
+  200  ls
+  201  mkdir class6
+  202  cd class6
+  203  ls
+  204  ls -alh
+  205  tar -xz g1e.tar.xz
+  206  tar --xz g1e.tar.xz
+  207  tar -xJ g1e.tar.xz
+  208  tar --xJ g1e.tar.xz
+  209  tar --xf g1e.tar.xz
+  210  bowtie2-build chr19.fa > chr19index
+  211  bowtie2-build chr19.fa chr19index
+  212  bowtie2
+  213  conda create -n macs2 macs2 
+  214  bowtie2
+  215  bowtie2 -p 8 -x chr19index CTCF_G1E.fastq -S 
+  216  bowtie2 -p 8 -x chr19index -q CTCF_G1E.fastq -S CTCF_G1E.sam
+  217  bowtie2 -p 8 -x chr19index -q CTCF_ER4.fastq -S CTCF_ER4.sam
+  218  bowtie2 -p 8 -x chr19index -q input_ER4.fastq -S input_ER4.sam
+  219  bowtie2 -p 8 -x chr19index -q input_G1E.fastq -S input_G1E.sam
+  220  source activate macs2
+  221  macs2 callpeak
+  222  macs2 callpeak -p 8 -h -t CTCF_G1E.sam -c input_G1E.sam -f SAM 
+  223  macs2 callpeak -p 8 -t CTCF_G1E.sam -c input_G1E.sam -f SAM 
+  224  macs2 callpeak -p 8 -t CTCF_G1E.sam -c input_G1E.sam -f SAM -outdir G1E
+  225  macs2 callpeak -p 8 -t CTCF_G1E.sam -c input_G1E.sam -f SAM -outdir g1e
+  226  macs2 callpeak -p 8 -t CTCF_ER4.sam -c input_ER4.sam -f SAM --outdir G1E 
+  227  macs2 callpeak -p 8 -t CTCF_G1E.sam -c input_G1E.sam -f SAM -outdir g1e --name G1E
+  228  macs2 callpeak -p 8 -t CTCF_G1E.sam -c input_G1E.sam -f SAM --outdir g1e --name G1E
+  229  macs2 callpeak -p 8 -t CTCF_ER4.sam -c input_ER4.sam -f SAM --outdir ER4 noname
+  230  source deactivate
+  231  source activate macs2
+  232  macs2 callpeak -p 8 -t CTCF_ER4.sam -c input_ER4.sam -f SAM --outdir ER4noname
+  233  macs2 callpeak -p 8 -t CTCF_ER4.sam -c input_ER4.sam -f SAM --name ER4
+  234  macs2 callpeak -p 8 -t CTCF_G1E.sam -c input_G1E.sam -f SAM --name G1E
+  235  source deactivate
+  236  bedtools
+  237  less -S G1E_peaks.narrowPeak 
+  238  ls -alh
+  239  source activate macs2
+  240  macs2 callpeak -p 8 -t CTCF_G1E.sam -c input_G1E.sam -f SAM --outdir g1e --name G1E
+  241  macs2 callpeak -t CTCF_G1E.sam -c input_G1E.sam -f SAM --outdir g1e --name G1E
+  242  macs2 callpeak -t CTCF_G1E.sam -c input_G1E.sam -f SAM --name G1E
+  243  macs2 callpeak -t CTCF_ER4.sam -c input_ER4.sam -f SAM --name ER4
+  244  ls -alh
+  245  source deactiva
+  246  bedtools intersect -a ER4_peaks.narrowPeak -b G1E_peaks.narrowPeak -v > peaksGained
+  247  bedtools intersect -a G1E_peaks.narrowPeak -b ER4_peaks.narrowPeak -v > peaksLost
+  248  less -S peaksGained 
+  249  less -S Mus_musculus.GRCm38.94_features.bed 
+  250  history > class6-history.log
+  251  mate class6-homework.py
+  252   ls -alh
+  253  less -S peaksGained 
+  254  less -S peaksGained 
+  255  less -S peaksGained 
+  256  less -S peaksGained 
+  257  less -S peaksGained 
+  258  cd ..
+  259  mkdir class7
+  260  cd class7
+  261  ls
+  262  wget "https://raw.githubusercontent.com/bxlab/qbb2018/master/data/ER4_peaks.narrowPeak"
+  263  ls
+  264  conda install meme
+  265  meme
+  266  meme -help
+  267  meme chip
+  268  meme-chip
+  269  log 
+  270  history > class7history.txt
+  271  ls
+  272  ls
+  273  git 
+  274  git clone 
+  275          schatzlab.github.io/people/index.html
+  276  git clone schatzlab.github.io/people/
+  277  git clone https://github.com/schatzlab/schatzlab.github.io.git
+  278  ls
+  279  cd schatzlab.github.io/
+  280  ls
+  281  less -S index.html 
+  282  less -S CNAME
+  283  cd people
+  284  ls
+  285  less -S index.html
+  286  cd ..
+  287  cd people
+  288  less -S index.html
+  289  cd ../images
+  290  ls
+  291  cd ..
+  292  ls
+  293  less -S README.md
+  294  cd people
+  295  ls
+  296  cd headshot/
+  297  ls
+  298  cp /Users/cmdb/Documents/sucich.jpg dsucich.jpg
+  299  ls
+  300  cd ..
+  301  ls
+  302  cd index.html 
+  303  mate index.html
+  304  ls
+  305  git add index.html
+  306  cd headshot/
+  307  git add dsucich.jpg
+  308  git commit -m "Dylan Sucich added himself to the website"
+  309  git push
+  310  cd ..
+  311  cd .
+  312  cd 
+  313  ls
+  314  mkdir schatz
+  315  ls
+  316  cd schatz
+  317  ls
+  318  cp /Users/cmdb/Desktop/expression.txt expression.txt
+  319  ls
+  320  mkdir RNAseq-tutorial
+  321  ls
+  322  mv expression.txt RNAseq-tutorial/
+  323  ls
+  324  cd RNAseq-tutorial/
+  325  ls
+  326  mate RNAseq-exercise1.py
+  327  ls
+  328  less -S expression.txt 
+  329  ls
+  330  RNAseq-exercise1.py expression.txt 
+  331  RNAseq-exercise1.py expression.txt 
+  332  RNAseq-exercise1.py expression.txt 
+  333  RNAseq-exercise1.py expression.txt 
+  334  RNAseq-exercise1.py expression.txt 
+  335  RNAseq-exercise1.py expression.txt 
+  336  RNAseq-exercise1.py expression.txt 
+  337  RNAseq-exercise1.py expression.txt 
+  338  for line in vcf:;     if line.startswith("#"):
+  339          continue
+  340      fields = line.strip("\r\n").split("\t")
+  341      AF_Values = fields[7][3:]
+  342      AF_Value = AF_Values.split(",")[0]#might be two
+  343      AF_Value = AF_Values.split(",")[0]#might be two
+  344  RNAseq-exercise1.py expression.txt 
+  345  RNAseq-exercise1.py expression.txt 
+  346  RNAseq-exercise1.py expression.txt 
+  347  RNAseq-exercise1.py expression.txt 
+  348  RNAseq-exercise1.py expression.txt 
+  349  RNAseq-exercise1.py expression.txt 
+  350  RNAseq-exercise1.py expression.txt 
+  351  RNAseq-exercise1.py expression.txt 
+  352  RNAseq-exercise1.py expression.txt 
+  353  RNAseq-exercise1.py expression.txt 
+  354  RNAseq-exercise1.py expression.txt 
+  355  RNAseq-exercise1.py expression.txt 
+  356  RNAseq-exercise1.py expression.txt 
+  357  RNAseq-exercise1.py expression.txt 
+  358  RNAseq-exercise1.py expression.txt 
+  359  RNAseq-exercise1.py expression.txt 
+  360  RNAseq-exercise1.py expression.txt 
+  361  RNAseq-exercise1.py expression.txt 
+  362  RNAseq-exercise1.py expression.txt 
+  363  RNAseq-exercise1.py expression.txt 
+  364  RNAseq-exercise1.py expression.txt 
+  365  RNAseq-exercise1.py expression.txt 
+  366  RNAseq-exercise1.py expression.txt 
+  367  RNAseq-exercise1.py expression.txt 
+  368  RNAseq-exercise1.py expression.txt 
+  369  RNAseq-exercise1.py expression.txt 
+  370  RNAseq-exercise1.py expression.txt 
+  371  RNAseq-exercise1.py expression.txt 
+  372  RNAseq-exercise1.py expression.txt 
+  373  RNAseq-exercise1.py expression.txt 
+  374  RNAseq-exercise1.py expression.txt 
+  375  RNAseq-exercise1.py expression.txt 
+  376  RNAseq-exercise1.py expression.txt 
+  377  RNAseq-exercise1.py expression.txt 
+  378  RNAseq-exercise1.py expression.txt 
+  379  RNAseq-exercise1.py expression.txt 
+  380  ls
+  381  cd open exp_1.png 
+  382  open exp_*
+  383  open exp_*
+  384  RNAseq-exercise1.py expression.txt 
+  385  open exp_*
+  386  RNAseq-exercise1.py expression.txt 
+  387  RNAseq-exercise1.py expression.txt 
+  388  RNAseq-exercise1.py expression.txt 
+  389  RNAseq-exercise1.py expression.txt 
+  390  RNAseq-exercise1.py expression.txt 
+  391  RNAseq-exercise1.py expression.txt 
+  392  RNAseq-exercise1.py expression.txt 
+  393  RNAseq-exercise1.py expression.txt 
+  394  RNAseq-exercise1.py expression.txt 
+  395  RNAseq-exercise1.py expression.txt 
+  396  RNAseq-exercise1.py expression.txt 
+  397  RNAseq-exercise1.py expression.txt 
+  398  RNAseq-exercise1.py expression.txt 
+  399  RNAseq-exercise1.py expression.txt 
+  400  RNAseq-exercise1.py expression.txt 
+  401  RNAseq-exercise1.py expression.txt 
+  402  RNAseq-exercise1.py expression.txt 
+  403  RNAseq-exercise1.py expression.txt 
+  404  RNAseq-exercise1.py expression.txt 
+  405  RNAseq-exercise1.py expression.txt 
+  406  RNAseq-exercise1.py expression.txt 
+  407  RNAseq-exercise1.py expression.txt 
+  408  RNAseq-exercise1.py expression.txt 
+  409  RNAseq-exercise1.py expression.txt 
+  410  RNAseq-exercise1.py expression.txt 
+  411  RNAseq-exercise1.py expression.txt 
+  412  RNAseq-exercise1.py expression.txt 
+  413  RNAseq-exercise1.py expression.txt 
+  414  RNAseq-exercise1.py expression.txt 
+  415  RNAseq-exercise1.py expression.txt 
+  416  RNAseq-exercise1.py expression.txt 
+  417  RNAseq-exercise1.py expression.txt 
+  418  RNAseq-exercise1.py expression.txt 
+  419  RNAseq-exercise1.py expression.txt 
+  420  RNAseq-exercise1.py expression.txt 
+  421  RNAseq-exercise1.py expression.txt 
+  422  RNAseq-exercise1.py expression.txt 
+  423  RNAseq-exercise1.py expression.txt 
+  424  RNAseq-exercise1.py expression.txt 
+  425  RNAseq-exercise1.py expression.txt 
+  426  RNAseq-exercise1.py expression.txt 
+  427  RNAseq-exercise1.py expression.txt 
+  428  RNAseq-exercise1.py expression.txt 
+  429  RNAseq-exercise1.py expression.txt 
+  430  RNAseq-exercise1.py expression.txt 
+  431  RNAseq-exercise1.py expression.txt 
+  432  RNAseq-exercise1.py expression.txt 
+  433  RNAseq-exercise1.py expression.txt 
+  434  RNAseq-exercise1.py expression.txt 
+  435  RNAseq-exercise1.py expression.txt 
+  436  RNAseq-exercise1.py expression.txt 
+  437  RNAseq-exercise1.py expression.txt 
+  438  RNAseq-exercise1.py expression.txt 
+  439  RNAseq-exercise1.py expression.txt 
+  440  RNAseq-exercise1.py expression.txt 
+  441  RNAseq-exercise1.py expression.txt 
+  442  RNAseq-exercise1.py expression.txt 
+  443  RNAseq-exercise1.py expression.txt 
+  444  RNAseq-exercise1.py expression.txt 
+  445  RNAseq-exercise1.py expression.txt 
+  446  RNAseq-exercise1.py expression.txt 
+  447  RNAseq-exercise1.py expression.txt 
+  448  RNAseq-exercise1.py expression.txt 
+  449  RNAseq-exercise1.py expression.txt 
+  450  RNAseq-exercise1.py expression.txt 
+  451  RNAseq-exercise1.py expression.txt 
+  452  ls
+  453  cd
+  454  ls
+  455  cd schatz
+  456  ls
+  457  cd RNAseq-tutorial/
+  458  ls
+  459  less -S expression.txt 
+  460  less -S expression.txt 
+  461  RNAseq-exercise1.py expression.txt 
+  462  RNAseq-exercise1.py expression.txt 
+  463  RNAseq-exercise1.py expression.txt 
+  464  RNAseq-exercise1.py expression.txt 
+  465  RNAseq-exercise1.py expression.txt 
+  466  RNAseq-exercise1.py expression.txt 
+  467  RNAseq-exercise1.py expression.txt 
+  468  RNAseq-exercise1.py expression.txt 
+  469  RNAseq-exercise1.py expression.txt 
+  470  RNAseq-exercise1.py expression.txt 
+  471  RNAseq-exercise1.py expression.txt 
+  472  RNAseq-exercise1.py expression.txt 
+  473  RNAseq-exercise1.py expression.txt 
+  474  cd ..
+  475  ls
+  476  git clone https://github.com/dylansucich/schatz.git
+  477  ls
+  478  cd ..
+  479  ls
+  480  cp schatz Mschatz
+  481  ls
+  482  cdschatz
+  483  cd schatz
+  484  ls
+  485  mate README.md 
+  486  git add README.md 
+  487  git add RNAseq-tutorial/
+  488  ls
+  489  cd RNAseq-tutorial/
+  490  ls
+  491  git commit -m "RNAseq-Tutorial exercise 1"
+  492  git push
+  493  cd ..
+  494  git add RNAseq-tutorial/
+  495  git commit -m "Schatz RNAseq Tutorial Exercise 1 figures and python script"
+  496  git push
+  497  bowtie -1 t1.1.fq -2 t1.1.fq t1_bowtie.bam
+  498  bowtie -1 t1.1.fq -2 t1.2.fq t1_bowtie.bam
+  499  bowtie -1 t1.1.fq -2 t1.2.fq ecoli.fa
+  500  bowtie
+  501  bowtie -1 t1.1.fq -2 t1.2.fq 
+  502  bowtie ecoli.fa -1 t1.1.fq -2 t1.2.fq 
+  503  bowtie index
+  504  bowtie2
+  505  bowtie2-build ecoli.fa
+  506  bowtie2-build ecoli.fa ecoli_bt2
+  507  bowtie2 -x ecoli_bt2 -1 t1.1.fq -2 t1.2.fq t1_bt2.sam
+  508  less -S t1_bt2.sam 
+  509  bowtie2 -x ecoli_bt2 -1 t2.1.fq -2 t2.2.fq t2_bt2.sam
+  510  bowtie2 -xS ecoli_bt2 -1 t3.1.fq -2 t3.2.fq t3_bt2.sam
+  511  bowtie2 -x ecoli_bt2 -1 t3.1.fq -2 t3.2.fq t3_bt2.sam
+  512  bowtie2 -x ecoli_bt2 -1 t4.1.fq -2 t4.2.fq t4_bt2.sam
+  513  bowtie2 -x ecoli_bt2 -1 t5.1.fq -2 t5.2.fq t5_bt2.sam
+  514  bowtie2 -x ecoli_bt2 -1 t6.1.fq -2 t6.2.fq t6_bt2.sam
+  515  bowtie2 -x ecoli_bt2 -1 t7.1.fq -2 t7.2.fq t7_bt2.sam
+  516  bowtie2 -x ecoli_bt2 -1 t8.1.fq -2 t8.2.fq t8_bt2.sam
+  517  bowtie2 -x ecoli_bt2 -1 t9.1.fq -2 t9.2.fq t9_bt2.sam
+  518  bowtie2 -x ecoli_bt2 -1 t10.1.fq -2 t10.2.fq t10_bt2.sam
+  519  conda config --add channels defaults
+  520  conda config --add channels bioconda
+  521  conda config --add channels conda-forge
+  522  star --sjdbGTFfile refgenes.ptt --sjdbOverhang 100 --readFilesIn t1.1.fq t1.2.fq
+  523  mkdir GenomeDir
+  524  star --genomeDir GenomeDir --sjdbGTFfile refgenes.ptt --sjdbOverhang 100 --readFilesIn t1.1.fq t1.2.fq
+  525  star --genomeDir GenomeDir --sjdbGTFfile refgenes.ptt --sjdbOverhang 100 --readFilesIn t1.1.fq t1.2.fq
+  526  less -S GenomeDir/genomeParameters.txt
+  527  star --genomeDir GenomeDir --sjdbGTFfile refgenes.ptt --sjdbOverhang 100 --readFilesIn t1.1.fq t1.2.fq
+  528* star --sjdbGTFfile  --sjdbOverhang 100 --readFilesIn t1.1.fq t1.2.fq
+  529  star --genomeDir GenomeDir --sjdbGTFfile ecoli.fa --sjdbOverhang 100 --readFilesIn t1.1.fq t1.2.fq
+  530* star --genomeDir GenomeDir --sjdbGTFfile ecoli.fa --sjdbOverhang 100 --readFilesIn t1.1.fq t1.2.fq 
+  531  STAR --runThreadN 3 --runMode genomeGenerate --genomeDir /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /challenge2/GenomeDir --genomeFastaFiles /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /challenge2/GenomeDir/GCF_000005845.2_ASM584v2_genomic.fna --sjdbGTFfile /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /challenge2/GenomeDir/GCF_000005845.2_ASM584v2_genomic.gff  --sjdbOverhang 100
+  532  star --genomeDir GenomeDir --sjdbGTFfile /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /challenge2/GenomeDir/GCF_000005845.2_ASM584v2_genomic.gff --sjdbOverhang 100 --readFilesIn t1.1.fq t1.2.fq
+  533  STAR --runThreadN 3 --runMode genomeGenerate --genomeDir /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /challenge2/GenomeDir --genomeFastaFiles /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /challenge2/GenomeDir/GCF_000005845.2_ASM584v2_genomic.fna --sjdbGTFfile /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /challenge2/GenomeDir/GCF_000005845.2_ASM584v2_genomic.gff  --sjdbOverhang 100 --genomeSAindexNbases 6
+  534  STAR  --runMode genomeGenerate --runThreadN 24 --genomeDir ./ --genomeFastaFiles ecoli.fa --genomeSAindexNbases 6
+  535  STAR --runThreadN 3 --genomeDir /GenomeDir --readFilesIn t1.1.fq t1.2.fq --outFileNamePrefix t1_STAR
+  536  STAR --runThreadN 3 --genomeDir GenomeDir/ --readFilesIn t1.1.fq t1.2.fq --outFileNamePrefix t1_STAR
+  537  STAR --runThreadN 3 --genomeDir GenomeDir/ --readFilesIn t1.1.fq t1.2.fq --outFileNamePrefix t1_STAR --genomeLoad LoadAndKeep
+  538  STAR --runThreadN 3 --genomeDir GenomeDir/ --readFilesIn t1.1.fq t1.2.fq --outFileNamePrefix t1_STAR
+  539  STAR --runThreadN 3 --genomeDir GenomeDir/ --readFilesIn t2.1.fq t2.2.fq --outFileNamePrefix t2_STAR
+  540  STAR --runThreadN 3 --genomeDir GenomeDir/ --readFilesIn t3.1.fq t3.2.fq --outFileNamePrefix t3_STAR
+  541  STAR --runThreadN 3 --genomeDir GenomeDir/ --readFilesIn t4.1.fq t4.2.fq --outFileNamePrefix t4_STAR
+  542  STAR --runThreadN 3 --genomeDir GenomeDir/ --readFilesIn t5.1.fq t5.2.fq --outFileNamePrefix t5_STAR
+  543  STAR --runThreadN 3 --genomeDir GenomeDir/ --readFilesIn t6.1.fq t6.2.fq --outFileNamePrefix t6_STAR
+  544  STAR --runThreadN 8 --genomeDir GenomeDir/ --readFilesIn t7.1.fq t7.2.fq --outFileNamePrefix t7_STAR
+  545  STAR --runThreadN 8 --genomeDir GenomeDir/ --readFilesIn t8.1.fq t8.2.fq --outFileNamePrefix t8_STAR
+  546  STAR --runThreadN 8 --genomeDir GenomeDir/ --readFilesIn t9.1.fq t9.2.fq --outFileNamePrefix t9_STAR
+  547  STAR --runThreadN 8 --genomeDir GenomeDir/ --readFilesIn t10.1.fq t10.2.fq --outFileNamePrefix t10_STAR
+  548  conda install featurecounts
+  549  conda install subread
+  550  featurecounts
+  551  featureCounts -a ecoli.fa -o FC.txt t1.am
+  552  featureCounts -a ecoli.fa -o FC.txt t1.sam
+  553  featureCounts -a refgenes.ptt -o FC.txt t1.sam
+  554  featureCounts -a refgenes.ptt -t exon -o FC.txt t1.sam
+  555  less -S t9_STARSJ.out.tab 
+  556  less -S t9_STARSAligned.out.sam
+  557  less -S t9_STARAligned.out.sam
+  558  clear
+  559  history > RNAseqAnalysis2.txt
