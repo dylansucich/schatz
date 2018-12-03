@@ -1,0 +1,500 @@
+  393  DepthperExon.py t1_depth.bam 
+  394  DepthperExon.py t1_depth.bam 
+  395  DepthperExon.py t1_depth.bam 
+  396  DepthperExon.py t1_depth.bam 
+  397  DepthperExon.py t1_depth.bam 
+  398  DepthperExon.py t1_depth.bam 
+  399  DepthperExon.py t1_depth.bam 
+  400  DepthperExon.py t1_depth.bam 
+  401  DepthperExon.py t1_depth.bam 
+  402  DepthperExon.py t1_depth.bam 
+  403  DepthperExon.py t1_depth.bam 
+  404  DepthperExon.py t1_depth.bam 
+  405  DepthperExon.py t1_depth.bam 
+  406  DepthperExon.py t1_depth.bam 
+  407  DepthperExon.py t1_depth.bam 
+  408  DepthperExon.py t1_depth.bam 
+  409  DepthperExon.py t1_depth.bam 
+  410  DepthperExon.py t1_depth.bam 
+  411  DepthperExon.py t1_depth.bam 
+  412  DepthperExon.py t1_depth.bam 
+  413  DepthperExon.py t1_depth.bam 
+  414  DepthperExon.py t1_depth.bam 
+  415  DepthperExon.py t1_depth.bam 
+  416  DepthperExon.py t1_depth.bam 
+  417  DepthperExon.py t1_depth.bam 
+  418  DepthperExon.py t1_depth.bam 
+  419  DepthperExon.py t1_depth.bam 
+  420  DepthperExon.py t1_depth.bam 
+  421  DepthperExon.py t1_depth.bam 
+  422  DepthperExon.py t1_depth.bam 
+  423  DepthperExon.py t1_depth.bam 
+  424  less -S t1_depth.bam 
+  425  less -S t1_depth.bam 
+  426  DepthperExon.py t1_depth.bam 
+  427  DepthperExon.py t1_depth.bam 
+  428  DepthperExon.py t1_depth.bam 
+  429  DepthperExon.py t1_depth.bam 
+  430  open DepthvsPosition_t1.png 
+  431  DepthperExon.py t1_depth.bam 
+  432  open DepthvsPosition_t1.png 
+  433  DepthperExon.py t1_depth.bam 
+  434  DepthperExon.py t1_depth.bam 
+  435  open DepthvsPosition_t1.png 
+  436  open DepthvsPosition_t1.png 
+  437  open DepthvsPosition_t1.png 
+  438  DepthperExon.py t1_depth.bam 
+  439  open DepthvsPosition_t1.png 
+  440  DepthperExon.py t1_depth.bam 
+  441  DepthperExon.py t1_depth.bam 
+  442  DepthperExon.py t1_depth.bam 
+  443  DepthperExon.py t1_depth.bam 
+  444  open DepthvsPosition_t1.png 
+  445  DepthperExon.py t1_depth.bam 
+  446  DepthperExon.py t1_depth.bam 
+  447  DepthperExon.py t1_depth.bam 
+  448  DepthperExon.py t1_depth.bam 
+  449  open DepthvsPosition_t1.png 
+  450  open DepthvsPosition_t1.png 
+  451  DepthperExon.py t1_depth.bam 
+  452  open DepthvsPosition_t1.png 
+  453  open DepthvsPosition_t1_depth.bam.png 
+  454  DepthperExon.py t1_depth.bam 
+  455  open DepthvsPosition_t1_depth.bam.png 
+  456  DepthperExon.py Depth/*
+  457  DepthperExon.py Depth/*
+  458  DepthperExon.py Depth/*
+  459  DepthperExon.py Depth/*
+  460  DepthperExon.py Depth/*
+  461  DepthperExon.py Depth/*
+  462  DepthperExon.py Depth/*
+  463  DepthperExon.py Depth/*
+  464  DepthperExon.py Depth/*
+  465  DepthperExon.py Depth/*
+  466  DepthperExon.py Depth/*
+  467  DepthperExon.py Depth/*
+  468  DepthperExon.py Depth/*
+  469  DepthperExon.py Depth/*
+  470  cd Depth/
+  471  ls
+  472  DepthperExon.py t1_depth.bam t2_depth.bam t3_depth.bam t4_depth.bam t5_depth.bam t6_depth.bam t7_depth.bam t8_depth.bam t9_depth.bam t10_depth.bam 
+  473  DepthperExon.py t1_depth.bam t2_depth.bam t3_depth.bam t4_depth.bam t5_depth.bam t6_depth.bam t7_depth.bam t8_depth.bam t9_depth.bam t10_depth.bam 
+  474  DepthperExon.py t1_depth.bam t2_depth.bam t3_depth.bam t4_depth.bam t5_depth.bam t6_depth.bam t7_depth.bam t8_depth.bam t9_depth.bam t10_depth.bam 
+  475  DepthperExon.py t1_depth.bam t2_depth.bam t3_depth.bam t4_depth.bam t5_depth.bam t6_depth.bam t7_depth.bam t8_depth.bam t9_depth.bam t10_depth.bam 
+  476  DepthperExon.py t1_depth.bam t2_depth.bam t3_depth.bam t4_depth.bam t5_depth.bam t6_depth.bam t7_depth.bam t8_depth.bam t9_depth.bam t10_depth.bam 
+  477  DepthperExon.py t1_depth.bam t2_depth.bam t3_depth.bam t4_depth.bam t5_depth.bam t6_depth.bam t7_depth.bam t8_depth.bam t9_depth.bam t10_depth.bam 
+  478  DepthperExon.py t1_depth.bam t2_depth.bam t3_depth.bam t4_depth.bam t5_depth.bam t6_depth.bam t7_depth.bam t8_depth.bam t9_depth.bam t10_depth.bam 
+  479  DepthperExon.py t1_depth.bam t2_depth.bam t3_depth.bam t4_depth.bam t5_depth.bam t6_depth.bam t7_depth.bam t8_depth.bam t9_depth.bam t10_depth.bam 
+  480  DepthperExon.py t1_depth.bam t2_depth.bam t3_depth.bam t4_depth.bam t5_depth.bam t6_depth.bam t7_depth.bam t8_depth.bam t9_depth.bam t10_depth.bam 
+  481  DepthperExon.py t1_depth.bam t2_depth.bam t3_depth.bam t4_depth.bam t5_depth.bam t6_depth.bam t7_depth.bam t8_depth.bam t9_depth.bam t10_depth.bam 
+  482  DepthperExon.py t1_depth.bam t2_depth.bam t3_depth.bam t4_depth.bam t5_depth.bam t6_depth.bam t7_depth.bam t8_depth.bam t9_depth.bam t10_depth.bam 
+  483  open 1gene_Zoomed_DepthvsPositionEcoliTimeSeries_1.png
+  484  DepthperExon.py t1_depth.bam t2_depth.bam t3_depth.bam t4_depth.bam t5_depth.bam t6_depth.bam t7_depth.bam t8_depth.bam t9_depth.bam t10_depth.bam 
+  485  open 1gene_Zoomed_DepthvsPositionEcoliTimeSeries_2-1.png
+  486  open 1gene_Zoomed_DepthvsPositionEcoliTimeSeries_2-1.png
+  487  DepthperExon.py t1_depth.bam t2_depth.bam t3_depth.bam t4_depth.bam t5_depth.bam t6_depth.bam t7_depth.bam t8_depth.bam t9_depth.bam t10_depth.bam 
+  488  open 1gene_Zoomed_DepthvsPositionEcoliTimeSeries_3-1.png
+  489  DepthperExon.py t1_depth.bam t2_depth.bam t3_depth.bam t4_depth.bam t5_depth.bam t6_depth.bam t7_depth.bam t8_depth.bam t9_depth.bam t10_depth.bam 
+  490  DepthperExon.py t1_depth.bam t2_depth.bam t3_depth.bam t4_depth.bam t5_depth.bam t6_depth.bam t7_depth.bam t8_depth.bam t9_depth.bam t10_depth.bam 
+  491  DepthperExon.py t1_depth.bam t2_depth.bam t3_depth.bam t4_depth.bam t5_depth.bam t6_depth.bam t7_depth.bam t8_depth.bam t9_depth.bam t10_depth.bam 
+  492  DepthperExon.py t1_depth.bam t2_depth.bam t3_depth.bam t4_depth.bam t5_depth.bam t6_depth.bam t7_depth.bam t8_depth.bam t9_depth.bam t10_depth.bam 
+  493  DepthperExon.py t1_depth.bam t2_depth.bam t3_depth.bam t4_depth.bam t5_depth.bam t6_depth.bam t7_depth.bam t8_depth.bam t9_depth.bam t10_depth.bam 
+  494  DepthperExon.py t1_depth.bam t2_depth.bam t3_depth.bam t4_depth.bam t5_depth.bam t6_depth.bam t7_depth.bam t8_depth.bam t9_depth.bam t10_depth.bam 
+  495  DepthperExon.py t1_depth.bam t2_depth.bam t3_depth.bam t4_depth.bam t5_depth.bam t6_depth.bam t7_depth.bam t8_depth.bam t9_depth.bam t10_depth.bam 
+  496  DepthperExon.py t1_depth.bam t2_depth.bam t3_depth.bam t4_depth.bam t5_depth.bam t6_depth.bam t7_depth.bam t8_depth.bam t9_depth.bam t10_depth.bam 
+  497  DepthperExon.py t1_depth.bam t2_depth.bam t3_depth.bam t4_depth.bam t5_depth.bam t6_depth.bam t7_depth.bam t8_depth.bam t9_depth.bam t10_depth.bam 
+  498  DepthperExon.py t1_depth.bam t2_depth.bam t3_depth.bam t4_depth.bam t5_depth.bam t6_depth.bam t7_depth.bam t8_depth.bam t9_depth.bam t10_depth.bam 
+  499  DepthperExon.py t1_depth.bam t2_depth.bam t3_depth.bam t4_depth.bam t5_depth.bam t6_depth.bam t7_depth.bam t8_depth.bam t9_depth.bam t10_depth.bam 
+  500  history > log.txt
+  501  cd schatz
+  502  ls
+  503  cd RNAseq-tutorial/
+  504  cd Exercise\ 1\ /
+  505  cd challenge2/
+  506  ls
+  507  cd Depth
+  508  ls
+  509  DepthperExon.py t*
+  510  DepthperExon.py t*
+  511  /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /challenge2/Depth/DepthperExon.py t*
+  512  ls
+  513  ls -alh
+  514  open 1gene_Zoomed_DepthvsPositionEcoliTimeSeries_loop.png
+  515  /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /challenge2/Depth/DepthperExon.py t*
+  516  ls
+  517  /Users/cmdb/schatz/RNAseq-tutorial/Exercise\ 1\ /challenge2/Depth/DepthperExon.py t*
+  518  less -S refgenes.ptt 
+  519  mate Depth.py
+  520  Depth.py refgenes.ptt 
+  521  open refgenes.ptt 
+  522  ls
+  523  Depth.py refgenes.ptt 
+  524  Depth.py refgenes.ptt 
+  525  Depth.py refgenes.ptt 
+  526  Depth.py refgenes.ptt 
+  527  Depth.py refgenes.ptt 
+  528  Depth.py refgenes.ptt 
+  529  Depth.py refgenes.ptt 
+  530  Depth.py refgenes.ptt 
+  531  Depth.py refgenes.ptt 
+  532  Depth.py refgenes.ptt 
+  533  Depth.py refgenes.ptt 
+  534  Depth.py refgenes.ptt 
+  535  Depth.py refgenes.ptt 
+  536  Depth.py refgenes.ptt 
+  537  Depth.py refgenes.ptt 
+  538  Depth.py refgenes.ptt 
+  539  Depth.py refgenes.ptt 
+  540  Depth.py refgenes.ptt 
+  541  Depth.py refgenes.ptt 
+  542  Depth.py refgenes.ptt 
+  543  Depth.py refgenes.ptt 
+  544  Depth.py refgenes.ptt 
+  545  Depth.py refgenes.ptt 
+  546  Depth.py refgenes.ptt 
+  547  Depth.py refgenes.ptt 
+  548  Depth.py refgenes.ptt 
+  549  Depth.py refgenes.ptt 
+  550  Depth.py refgenes.ptt 
+  551  Depth.py refgenes.ptt 
+  552  Depth.py refgenes.ptt 
+  553  Depth.py refgenes.ptt 
+  554  Depth.py refgenes.ptt 
+  555  Depth.py refgenes.ptt 
+  556  less -S refgenes.ptt 
+  557  ls -alh
+  558  less -S t1_depth.bam 
+  559  less -S t1_depth.bam 
+  560  less -S t1_depth.bam 
+  561  less -S t1_depth.bam 
+  562  Depth.py refgenes.ptt 
+  563  Depth.py refgenes.ptt t*
+  564  Depth.py refgenes.ptt t*
+  565  Depth.py refgenes.ptt t*
+  566  ls 
+  567  ls 
+  568  Depth.py refgenes.ptt t*
+  569  Depth.py refgenes.ptt t*
+  570  Depth.py refgenes.ptt t*
+  571  Depth.py refgenes.ptt t*
+  572  Depth.py refgenes.ptt t*
+  573  Depth.py refgenes.ptt t*
+  574  Depth.py refgenes.ptt t*
+  575  Depth.py refgenes.ptt t*
+  576  Depth.py refgenes.ptt t*
+  577  Depth.py refgenes.ptt t*
+  578  Depth.py refgenes.ptt t*
+  579  Depth.py refgenes.ptt t*
+  580  Depth.py refgenes.ptt t*
+  581  less -S t1_depth.bam 
+  582  less -S t1_depth.bam 
+  583  Depth.py refgenes.ptt t*
+  584  Depth.py refgenes.ptt t*
+  585  Depth.py refgenes.ptt t*
+  586  Depth.py refgenes.ptt t*
+  587  Depth.py refgenes.ptt t*
+  588  Depth.py refgenes.ptt t*
+  589  Depth.py refgenes.ptt t*
+  590  Depth.py refgenes.ptt t*
+  591  Depth.py refgenes.ptt t*
+  592  Depth.py refgenes.ptt t*
+  593  Depth.py refgenes.ptt t*
+  594  Depth.py refgenes.ptt t*
+  595  Depth.py refgenes.ptt t*
+  596  Depth.py refgenes.ptt t*
+  597  Depth.py refgenes.ptt t*
+  598  Depth.py refgenes.ptt t*
+  599  Depth.py refgenes.ptt t*
+  600  Depth.py refgenes.ptt t*
+  601  ls
+  602  ls -alh
+  603  Depth.py refgenes.ptt t*
+  604  ls -alh
+  605  Depth.py refgenes.ptt t*
+  606  Depth.py refgenes.ptt t*
+  607  Depth.py refgenes.ptt t*
+  608  Depth.py refgenes.ptt t*
+  609  Depth.py refgenes.ptt t*
+  610  Depth.py refgenes.ptt t*
+  611  Depth.py refgenes.ptt t*
+  612  Depth.py refgenes.ptt t*
+  613  Depth.py refgenes.ptt t*
+  614  Depth.py refgenes.ptt t*
+  615  Depth.py refgenes.ptt t*
+  616  Depth.py refgenes.ptt t*
+  617  Depth.py refgenes.ptt t*
+  618  Depth.py refgenes.ptt t*
+  619  Depth.py refgenes.ptt t*
+  620  Depth.py refgenes.ptt t*
+  621  Depth.py refgenes.ptt t*
+  622  Depth.py refgenes.ptt t*
+  623  ls
+  624  ls
+  625  Depth.py refgenes.ptt t*
+  626  Depth.py refgenes.ptt t*
+  627  Depth.py refgenes.ptt t*
+  628  Depth.py refgenes.ptt t*
+  629  Depth.py refgenes.ptt t*
+  630  Depth.py refgenes.ptt t*
+  631  Depth.py refgenes.ptt t*
+  632  ls
+  633  Depth.py
+  634  Depth.py
+  635  Depth.py
+  636  Depth.py refgenes.ptt t*
+  637  Depth.py refgenes.ptt t*
+  638  Depth.py refgenes.ptt t*
+  639  Depth.py refgenes.ptt t*
+  640  Depth.py refgenes.ptt t*
+  641  Depth.py refgenes.ptt t*
+  642  Depth.py refgenes.ptt t*
+  643  Depth.py refgenes.ptt t*
+  644  Depth.py refgenes.ptt t*
+  645  Depth.py refgenes.ptt t*
+  646  Depth.py refgenes.ptt t*
+  647  Depth.py refgenes.ptt t*
+  648  Depth.py refgenes.ptt t*
+  649  Depth.py refgenes.ptt t*
+  650  Depth.py refgenes.ptt t*
+  651  Depth.py refgenes.ptt t*
+  652  Depth.py refgenes.ptt t*
+  653  Depth.py refgenes.ptt t*
+  654  Depth.py refgenes.ptt t*
+  655  Depth.py refgenes.ptt t*
+  656  Depth.py refgenes.ptt t*
+  657  Depth.py refgenes.ptt t*
+  658  Depth.py refgenes.ptt t*
+  659  Depth.py refgenes.ptt t*
+  660  Depth.py refgenes.ptt t*
+  661  Depth.py refgenes.ptt t*
+  662  Depth.py refgenes.ptt t*
+  663  Depth.py refgenes.ptt t*
+  664  Depth.py refgenes.ptt t*
+  665  Depth.py refgenes.ptt t*
+  666  Depth.py refgenes.ptt t*
+  667  Depth.py refgenes.ptt t*
+  668  Depth.py refgenes.ptt t*
+  669  Depth.py refgenes.ptt t*
+  670  Depth.py refgenes.ptt t*
+  671  Depth.py refgenes.ptt t*
+  672  Depth.py refgenes.ptt t*
+  673  Depth.py refgenes.ptt t*
+  674  Depth.py refgenes.ptt t*
+  675  Depth.py refgenes.ptt t*
+  676  Depth.py refgenes.ptt t*
+  677  Depth.py refgenes.ptt t*
+  678  Depth.py refgenes.ptt t*
+  679  Depth.py refgenes.ptt t*
+  680  Depth.py refgenes.ptt t*
+  681  Depth.py refgenes.ptt t*
+  682  Depth.py refgenes.ptt t*
+  683  Depth.py refgenes.ptt t*
+  684  Depth.py refgenes.ptt t*
+  685  Depth.py refgenes.ptt t*
+  686  Depth.py refgenes.ptt t*
+  687  Depth.py refgenes.ptt t*
+  688  Depth.py refgenes.ptt t*
+  689  Depth.py refgenes.ptt t*
+  690  Depth.py refgenes.ptt t*
+  691  Depth.py refgenes.ptt t*
+  692  Depth.py refgenes.ptt t*
+  693  Depth.py refgenes.ptt t*
+  694  Depth.py refgenes.ptt t*
+  695  Depth.py refgenes.ptt t*
+  696  Depth.py refgenes.ptt t*
+  697  Depth.py refgenes.ptt t*
+  698  Depth.py refgenes.ptt t*
+  699  Depth.py refgenes.ptt t*
+  700  Depth.py refgenes.ptt t*
+  701  Depth.py refgenes.ptt t*
+  702  Depth.py refgenes.ptt t*
+  703  Depth.py refgenes.ptt t*
+  704  Depth.py refgenes.ptt t*
+  705  Depth.py refgenes.ptt t*
+  706  Depth.py refgenes.ptt t*
+  707  ls
+  708  Depth.py refgenes.ptt t*
+  709  Depth.py refgenes.ptt t*
+  710  Depth.py refgenes.ptt t*
+  711  Depth.py refgenes.ptt t*
+  712  Depth.py refgenes.ptt t*
+  713  Depth.py refgenes.ptt t*
+  714  Depth.py refgenes.ptt t*
+  715  Depth.py refgenes.ptt t*
+  716  Depth.py refgenes.ptt t*
+  717  Depth.py refgenes.ptt t*
+  718  Depth.py refgenes.ptt t*
+  719  Depth.py refgenes.ptt t*
+  720  Depth.py refgenes.ptt t*
+  721  Depth.py refgenes.ptt t*
+  722  Depth.py refgenes.ptt t*
+  723  Depth.py refgenes.ptt t*
+  724  Depth.py refgenes.ptt t*
+  725  Depth.py refgenes.ptt t*
+  726  Depth.py refgenes.ptt t*
+  727  Depth.py refgenes.ptt t*
+  728  Depth.py refgenes.ptt t*
+  729  Depth.py refgenes.ptt t*
+  730  Depth.py refgenes.ptt t*
+  731  Depth.py refgenes.ptt t*
+  732  Depth.py refgenes.ptt t*
+  733  Depth.py refgenes.ptt t*
+  734  Depth.py refgenes.ptt t*
+  735  Depth.py refgenes.ptt t*
+  736  Depth.py refgenes.ptt t*
+  737  Depth.py refgenes.ptt t*
+  738  Depth.py refgenes.ptt t*
+  739  Depth.py refgenes.ptt t*
+  740  Depth.py refgenes.ptt t*
+  741  Depth.py refgenes.ptt t*
+  742  Depth.py refgenes.ptt t*
+  743  Depth.py refgenes.ptt t*
+  744  ls
+  745  mate DepthperExon.py 
+  746  mate DepthperExon.py 
+  747  DepthperExon.py refgenes.ptt t*
+  748  DepthperExon.py refgenes.ptt t*
+  749  DepthperExon.py refgenes.ptt t*
+  750  DepthperExon.py refgenes.ptt t*
+  751  DepthperExon.py refgenes.ptt t*
+  752  DepthperExon.py refgenes.ptt t*
+  753  ls -alh
+  754  open Zoomed_DepthvsPositionEcoliTimeSeries_6.png
+  755  DepthperExon.py refgenes.ptt t*
+  756  DepthperExon.py refgenes.ptt t*
+  757  DepthperExon.py refgenes.ptt t*
+  758  DepthperExon.py refgenes.ptt t*
+  759  DepthperExon.py refgenes.ptt t*
+  760  DepthperExon.py refgenes.ptt t*
+  761  DepthperExon.py refgenes.ptt t*
+  762  DepthperExon.py refgenes.ptt t*
+  763  less -S refgenes.ptt 
+  764  less -S refgenes.ptt 
+  765  DepthperExon.py refgenes.ptt t*
+  766  DepthperExon.py refgenes.ptt t*
+  767  DepthperExon.py refgenes.ptt t*
+  768  DepthperExon.py refgenes.ptt t*
+  769  DepthperExon.py refgenes.ptt t*
+  770  DepthperExon.py refgenes.ptt t*
+  771  Depth.py refgenes.ptt t*
+  772  Depth.py refgenes.ptt t*
+  773  Depth.py refgenes.ptt t*
+  774  Depth.py refgenes.ptt t*
+  775  Depth.py refgenes.ptt t*
+  776  Depth.py refgenes.ptt t*
+  777  Depth.py refgenes.ptt t*
+  778  Depth.py refgenes.ptt t*
+  779  Depth.py refgenes.ptt t*
+  780  Depth.py refgenes.ptt t*
+  781  Depth.py refgenes.ptt t*
+  782  Depth.py refgenes.ptt t*
+  783  Depth.py refgenes.ptt t*
+  784  Depth.py refgenes.ptt t*
+  785  Depth.py refgenes.ptt t*
+  786  Depth.py refgenes.ptt t*
+  787  Depth.py refgenes.ptt t*
+  788  Depth.py refgenes.ptt t*
+  789  Depth.py refgenes.ptt t*
+  790  Depth.py refgenes.ptt t*
+  791  Depth.py refgenes.ptt t*
+  792  Depth.py refgenes.ptt t*
+  793  Depth.py refgenes.ptt t*
+  794  Depth.py refgenes.ptt t*
+  795  Depth.py refgenes.ptt t*
+  796  Depth.py refgenes.ptt t*
+  797  Depth.py refgenes.ptt t*
+  798  Depth.py refgenes.ptt t*
+  799  Depth.py refgenes.ptt t*
+  800  Depth.py refgenes.ptt t*
+  801  Depth.py refgenes.ptt t*
+  802  Depth.py refgenes.ptt t*
+  803  Depth.py refgenes.ptt t*
+  804  Depth.py refgenes.ptt t*
+  805  Depth.py refgenes.ptt t*
+  806  Depth.py refgenes.ptt t*
+  807  Depth.py refgenes.ptt t*
+  808  Depth.py refgenes.ptt t*
+  809  Depth.py refgenes.ptt t*
+  810  Depth.py refgenes.ptt t*
+  811  Depth.py refgenes.ptt t*
+  812  Depth.py refgenes.ptt t*
+  813  Depth.py refgenes.ptt t*
+  814  Depth.py refgenes.ptt t*
+  815  Depth.py refgenes.ptt t*
+  816  Depth.py refgenes.ptt t*
+  817  Depth.py refgenes.ptt t*
+  818  Depth.py refgenes.ptt t*
+  819  Depth.py refgenes.ptt t*
+  820  Depth.py refgenes.ptt t*
+  821  Depth.py refgenes.ptt t* > out.txt
+  822  Depth.py refgenes.ptt t* > out.txt
+  823  Depth.py refgenes.ptt t* > out.txt
+  824  Depth.py refgenes.ptt t* > out.txt
+  825  less -S out.txt
+  826  Depth.py refgenes.ptt t*
+  827  less -S t1_depth.bam 
+  828  less -S t2_depth.bam 
+  829  samtools depth t1.bam > t1_depth.bam
+  830  cd ..
+  831  samtools depth t1.bam > t1_depth.bam
+  832  samtools depth t2.bam > t2_depth.bam
+  833  samtools depth t2.bam > t2_depth.bam
+  834  samtools depth t4.bam > t4_depth.bam
+  835  samtools depth t4.bam > t4_depth.bam
+  836  samtools depth t4.bam > t4_depth.bam
+  837  samtools depth t6.bam > t6_depth.bam
+  838  samtools depth t6.bam > t6_depth.bam
+  839  samtools depth t5.bam > t5_depth.bam
+  840  samtools depth t7.bam > t7_depth.bam
+  841  samtools depth t7.bam > t7_depth.bam
+  842  samtools depth t8.bam > t8_depth.bam
+  843  samtools depth t9.bam > t9_depth.bam
+  844  samtools depth t10.bam > t10_depth.bam
+  845  ls -alh
+  846  less -S t1_depth.bam 
+  847  tail t1_depth.bam 
+  848  Depth.py refgenes.ptt t* > out.txt
+  849  cd Depth
+  850  Depth.py refgenes.ptt t* > out.txt
+  851  less out.txt
+  852  less -S refgenes.ptt 
+  853  Depth.py refgenes.ptt t* > out.txt
+  854  Depth.py refgenes.ptt t* > out.txt
+  855  Depth.py refgenes.ptt t* > out.txt
+  856  less -S out.txt
+  857  Depth.py refgenes.ptt t* 
+  858  Depth.py refgenes.ptt t* 
+  859  Depth.py refgenes.ptt t* 
+  860  Depth.py refgenes.ptt t* 
+  861  Depth.py refgenes.ptt t* 
+  862  Depth.py refgenes.ptt t* 
+  863  Depth.py refgenes.ptt t* 
+  864  Depth.py refgenes.ptt t* 
+  865  Depth.py refgenes.ptt t* 
+  866  Depth.py refgenes.ptt t* 
+  867  Depth.py refgenes.ptt t* 
+  868  Depth.py refgenes.ptt t* 
+  869  Depth.py refgenes.ptt t* 
+  870  Depth.py refgenes.ptt t* 
+  871  Depth.py refgenes.ptt t* 
+  872  Depth.py refgenes.ptt t* 
+  873  Depth.py refgenes.ptt t* 
+  874  Depth.py refgenes.ptt t* 
+  875  Depth.py refgenes.ptt t* 
+  876  Depth.py refgenes.ptt t* 
+  877  Depth.py refgenes.ptt t* 
+  878  Depth.py refgenes.ptt t* 
+  879  Depth.py refgenes.ptt t* 
+  880  Depth.py refgenes.ptt t* 
+  881  Depth.py refgenes.ptt t* 
+  882  Depth.py refgenes.ptt t* 
+  883  Depth.py refgenes.ptt t* 
+  884  Depth.py refgenes.ptt t* 
+  885  Depth.py refgenes.ptt t* 
+  886  Depth.py refgenes.ptt t* 
+  887  Depth.py refgenes.ptt t* 
+  888  Depth.py refgenes.ptt t* 
+  889  histroy > history11152018
+  890  log
+  891  history
+  892  history > history11152018
