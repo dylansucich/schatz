@@ -63,6 +63,9 @@ do
 	echo "${base}.1.fq" "${base}.2.fq" " Aligned with BWA sampe to SAM file"
 	samtools view -bSU SAM "aln_out/${base}.sam" | samtools sort -o "aln_out/${base}_sorted.bam"
 	echo "${base}" "SAM file sorted and converted to BAM file with samtools sort piped to view"
+	samtools index ecoli.fa "aln_out/${base}_sorted.bam" 
+	samtools depth -r "$reference" "aln_out/${base}_sorted.bam" > "aln_out/${base}_depth.bam"
+	echo "${base}" "BAM depth file created"
 done
 
 
@@ -74,6 +77,19 @@ bwa sampe "$reference" "t10.1.sai" "t10.2.sai" "t10reads/t10.1.fq" "t10reads/t10
 echo "t10.1.fq" "t10.2.fq" " Aligned with BWA sampe to SAM file"
 samtools view -bSU SAM "t10.sam" | samtools sort -o "t10_sorted.bam"
 echo "t10" "SAM file sorted and converted to BAM file with samtools sort piped to view"
+samtools index ecoli.fa "t10_sorted.bam" 
+samtools depth -r "$reference" "t10_sorted.bam" > "t10_depth.bam"
+
+
+
+
+
+
+
+
+
+
+
 
 
 
